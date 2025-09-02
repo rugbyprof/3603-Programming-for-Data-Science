@@ -10,7 +10,7 @@ Welcome! This is your first notebook for CMPS 3603 – Programming for Data Scie
 
 🧪 Click below to launch in Binder (no installation needed):
 
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rugyprof/3603-Programming-for-Data-Science/HEAD?urlpath=lab/tree/assignments/week01_intro)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rugbyprof/3603-Programming-for-Data-Science/HEAD?urlpath=lab/tree/assignments/)
 
 📤 When you're done:
 
