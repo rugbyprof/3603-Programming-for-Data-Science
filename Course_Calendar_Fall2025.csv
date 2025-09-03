@@ -1,0 +1,15 @@
+Week,Start Date,Topic,Assignment Folder,Assignment,Due Date,Exam
+Week 01,2025-08-25,Getting Started,01-Getting_Started,01-Colab_GettingStarted,2025-08-29,
+Week 02,2025-09-01,Variables and Types,02-Intro_to_Python,01-Variables_and_Types,2025-09-05,
+Week 03,2025-09-08,Lists and Strings,02-Intro_to_Python,02-Lists_and_Strings,2025-09-12,
+Week 04,2025-09-15,Dictionaries,02-Intro_to_Python,03-Dictionaries,2025-09-19,Exam 1
+Week 05,2025-09-22,NumPy Arrays,03-Working_with_Data,01-NumPy_Arrays,2025-09-26,
+Week 06,2025-09-29,Pandas DataFrames,03-Working_with_Data,02-Pandas_DataFrames,2025-10-03,
+Week 07,2025-10-06,Data Cleaning,03-Working_with_Data,03-Data_Cleaning,2025-10-10,Exam 2
+Week 08,2025-10-13,Matplotlib,04-Visualization,01-Matplotlib_Basics,2025-10-17,
+Week 09,2025-10-20,Seaborn,04-Visualization,02-Seaborn_Advanced,2025-10-24,
+Week 10,2025-10-27,Regression Models,05-Modeling,01-Regression,2025-10-31,
+Week 11,2025-11-03,Classification Models,05-Modeling,02-Classification,2025-11-07,Exam 3
+Week 12,2025-11-10,Unsupervised Learning,05-Modeling,03-Clustering_PCA,2025-11-14,
+Week 13,2025-11-17,Final Project Work,06-Final_Project,01-Project_Proposal,2025-11-21,
+Week 14,2025-11-24,Final Presentations,06-Final_Project,02-Project_Presentation,2025-11-28,Final Exam

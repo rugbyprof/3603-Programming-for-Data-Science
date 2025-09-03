@@ -46,6 +46,59 @@ It integrates hands-on coding with conceptual understanding and light math intui
 | **13**   | **Putting It Together**                         | - Face detection walkthrough OR mini project<br>- Model pipelines<br>- Final project planning<br>- Optional: Kernel Density Estimation                            |
 | **14**   | **Final Project + Review**                      | - Final project presentations<br>- Study guide & course wrap-up<br>- Concept review & practice exam                                                               |
 
+## 🗂️ **Proposed Repo Structure (Clean & Scalable)**
+
+```
+📁 Assignments/
+├── 01-Getting_Started/
+│   ├── 01-Colab_GettingStarted/
+│   │   └── README.md (instructions)
+│   ├── 02-GitHub_Colab_Workflow/
+│   │   └── README.md
+│   └── 03-Colab_Badge_Template/
+│       └── README.md
+├── 02-Intro_to_Python/
+│   ├── 01-Variables_and_Types/
+│   ├── 02-Lists_and_Strings/
+│   └── 03-Dictionaries/
+├── 03-Working_with_Data/
+├── 04-Visualization/
+├── 05-Modeling/
+└── 06-Final_Project/
+```
+
+```
+📁 Exams/
+├── 01-Intro_to_Python/
+│   └── (instructions or question bank)
+├── 02-Data_Types/
+├── 03-Midterm/
+└── 04-Final/
+```
+
+---
+
+## 🗓️ Step 1: **High-Level Schedule Framework**
+
+We'll base this on a 14-week semester:
+
+| Week | Focus Area                 | Assignment Folder             | Exam?     |
+| ---- | -------------------------- | ----------------------------- | --------- |
+| 1    | Getting Started            | 01-Getting_Started            | ❌        |
+| 2    | Variables & Data Types     | 02-Intro_to_Python/01-...     | ❌        |
+| 3    | Lists and Strings          | 02-Intro_to_Python/02-...     | ❌        |
+| 4    | Dictionaries               | 02-Intro_to_Python/03-...     | ✅ Exam 1 |
+| 5    | NumPy Basics               | 03-Working_with_Data/01-...   | ❌        |
+| 6    | Pandas + DataFrames        | 03-Working_with_Data/02-...   | ❌        |
+| 7    | Data Cleaning              | 03-Working_with_Data/03-...   | ✅ Exam 2 |
+| 8    | Matplotlib + Seaborn       | 04-Visualization/             | ❌        |
+| 9    | Storytelling with Data     | 04-Visualization/Project      | ❌        |
+| 10   | Modeling Basics            | 05-Modeling/01-Regression     | ❌        |
+| 11   | Classification Models      | 05-Modeling/02-Classification | ✅ Exam 3 |
+| 12   | Clustering + PCA           | 05-Modeling/03-Unsupervised   | ❌        |
+| 13   | Project Work               | 06-Final_Project              | ❌        |
+| 14   | Final Presentations + Exam | 06-Final_Project              | ✅ Final  |
+
 ---
 
 ### 🧠 Course Notes
