@@ -9,19 +9,19 @@
 - **Tools**: Jupyter Notebooks (lecture + assignments)
 - **Content split**: ~30–40% textbook, ~60–70% your custom materials -->
 
+### Books Source
 
-### Books 
-Source: https://github.com/jakevdp
-> Totally open Source
+<a href="https://github.com/jakevdp"><img src="https://images2.imgbox.com/a5/09/MlsXoTxv_o.png" width="120"></a>
 
 |                                  |                                   |
 | :------------------------------: | :-------------------------------: |
-| <img src="pdsh.png" width="150"> | <img src="awtop.png" width="130"> |
+| <img src="pdsh.png" width="100"> | <img src="awtop.png" width="100"> |
 
-Using my original structure and Jake VanderPlas’ content as a backbone, I've developed a **14-week data science course** that is:
-- beginner-friendly, 
+Using Jake VanderPlas’ Jupyter notebooks, I've developed a **14-week data science course** that is:
+
+- beginner-friendly,
 - steadily paced,
-- and project-focused. 
+- and project-focused.
 
 It integrates hands-on coding with conceptual understanding and light math intuition, ideal for young programmers or non-CS majors.
 
@@ -68,4 +68,3 @@ It integrates hands-on coding with conceptual understanding and light math intui
 - **Optional Deeper Topics**:
   - Kernel density estimation (Week 13)
   - 3D plotting and mapping (as bonus content)
-
