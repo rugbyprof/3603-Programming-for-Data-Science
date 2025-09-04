@@ -106,3 +106,6 @@ I will tell you how to show completed work on D2L later.
 - Copy over **Assignments/**.
 - Use **Colab (GitHub tab)** to edit.
 - Move finished work into **Completed/**.
+
+## Finally 
+
