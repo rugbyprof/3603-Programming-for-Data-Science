@@ -144,3 +144,9 @@ Just go to file save and you will get this message box
 You can also click the circled link below to get the same message box as above.
 
 <img src="https://images2.imgbox.com/c3/fa/ZP6kBPyI_o.png" width="300">
+
+## Discovery
+
+I discovered that if you replace the `Assignments` folder name with `Completed` it will save that working copy in your completed folder. Remember capitalization matters and spelling matters. Not sure what will happen if you get the path (folder name really) wrong.
+
+<img src="https://images2.imgbox.com/4a/2c/UGUbbhAw_o.png" width="300">
