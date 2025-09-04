@@ -15,7 +15,9 @@ This first assignment will guide you through opening, editing, and saving a Jupy
 
 ## 🔗 Open the Notebook
 
-👉 [00_GettingStartedWithNotebooks.ipynb](https://github.com/rugbyprof/3603-Programming-for-Data-Science/blob/main/Books/Intro2Python/00_GettingStartedWithNotebooks.ipynb)
+/Users/griffin/Sync/\_\_currentCourses/3603-Programming-for-Data-Science/
+
+👉 [01-Colab_Intro.ipynb](https://github.com/rugbyprof/3603-Programming-for-Data-Science/blob/main/Assignments/01-Getting_Started/01-Colab_Intro.ipynb)
 
 ---
 
@@ -23,7 +25,7 @@ This first assignment will guide you through opening, editing, and saving a Jupy
 
 Click this badge to open it in Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rugbyprof/3603-Programming-for-Data-Science/blob/main/Books/Intro2Python/00_GettingStartedWithNotebooks.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/rugbyprof/3603-Programming-for-Data-Science/blob/main/Assignments/01-Getting_Started/01-Colab_Intro.ipynb)
 
 ---
 
@@ -77,7 +79,7 @@ In this assignment, you'll create your own GitHub repo and learn to open noteboo
 ## ⬆️ Upload Your Notebook
 
 1. Download the starter notebook from:
-   👉 [00_GettingStartedWithNotebooks.ipynb](https://github.com/rugbyprof/3603-Programming-for-Data-Science/blob/main/Books/Intro2Python/00_GettingStartedWithNotebooks.ipynb)
+   👉 [02-GitHub_Basics.ipynb](https://github.com/rugbyprof/3603-Programming-for-Data-Science/blob/main/Assignments/01-Getting_Started/02-GitHub_Basics.ipynb)
 
 2. In your new repo, click **Add File > Upload Files**
 
