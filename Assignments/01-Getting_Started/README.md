@@ -25,7 +25,7 @@ This first assignment will guide you through opening, editing, and saving a Jupy
 
 Click this badge to open it in Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/rugbyprof/3603-Programming-for-Data-Science/blob/main/Assignments/01-Getting_Started/01-Colab_Intro.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rugbyprof/3603-Programming-for-Data-Science/blob/main/Assignments/01-Getting_Started/01-Colab_Intro.ipynb)
 
 ---
 
