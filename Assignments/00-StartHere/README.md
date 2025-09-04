@@ -8,7 +8,7 @@ This guide will help you set up everything you need for the course. By the end, 
 
 Here’s the “big picture” of how everything fits together:
 
-<img src="https://images2.imgbox.com/0a/d0/Uw5BZWwN_o.png">
+<img src="https://images2.imgbox.com/0a/d0/Uw5BZWwN_o.png" width="400">
 
 Think of it like this:
 
