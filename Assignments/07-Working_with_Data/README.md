@@ -47,8 +47,6 @@ By the end of this module, you should be able to:
 - UFO Sightings (`ufo.csv`)
 - Iris Dataset (`seaborn.load_dataset("iris")`)
 
-Feel free to swap in a dataset that's thematically fun or relevant to your students.
-
 ---
 
 ## 🛠️ Tips
