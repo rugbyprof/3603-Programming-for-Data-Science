@@ -1,4 +1,4 @@
-# 📚 Glossary: 08 - Foundations
+# 📚 Glossary: 05 - Foundations
 
 **Cell**<br>
 A block in a Jupyter notebook that can contain **code** or **Markdown**. Code cells run Python, Markdown cells render formatted text.
