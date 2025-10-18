@@ -1,4 +1,4 @@
-# 📚 Glossary: 02 - Working with Data
+# 📚 Glossary: 02 - Working with Data Part 1
 
 **List**  
 A mutable, ordered collection of items. Created with square brackets `[]`.
