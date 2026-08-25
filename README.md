@@ -8,6 +8,7 @@ New to the course? Work through **[`_StartHere/`](_StartHere/)** before touching
 
 | Part | Covers |
 |------|--------|
+| [0](_StartHere/Part-00.md) | Checking what's already installed (Git, Python, VS Code, Conda) |
 | [1](_StartHere/Part-01.md) | GitHub account + git identity |
 | [2](_StartHere/Part-02.md) | Installing/repairing Git, Python 3.13, and VS Code |
 | [3](_StartHere/Part-03.md) | Creating and connecting your course repository (`upstream`/`origin`) |

@@ -1,5 +1,12 @@
 # StartHere
 
+0. [Part 0 — Check What Is Already Installed](./Part-00.md)
+   - Opening a terminal on Windows or macOS
+   - Checking for an existing Git installation
+   - Checking for an existing Python installation (and whether it's 3.13)
+   - Checking for an existing VS Code installation
+   - Checking for Conda/Anaconda
+   - Recording your inventory before Parts 1–2
 1. [Part 1 — Create a GitHub Account and Configure Your Git Identity](./Part-01.md)
    - GitHub signup and email verification
    - Professional username guidance
