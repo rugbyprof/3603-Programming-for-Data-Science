@@ -104,13 +104,11 @@ We'll base this on a 14-week semester:
 ### 🧠 Course Notes
 
 - **3 Mini-Projects**:
-
   - Week 5: First data analysis
   - Week 8: Visual narrative
   - Week 11: Classifier on student-chosen dataset
 
 - **Final Project Ideas**:
-
   - Sports predictions
   - Spotify data trends
   - COVID or flu pattern analysis
