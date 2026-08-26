@@ -16,7 +16,7 @@ By the end of this part, you should have:
 - a verified email address;
 - a professional GitHub username;
 - two-factor authentication and recovery codes;
-- a configured Git author name and email, if Git is already installed; and
+- a decided Git author name and email, ready to configure once Git is installed in Part 2; and
 - a record of the GitHub username you will use for this course.
 
 You will create the course repository in a later part.
@@ -149,80 +149,33 @@ See [GitHub’s commit-email documentation](https://docs.github.com/en/account-a
 
 ---
 
-# 6. Configure Your Git Author Name and Email
+# 6. Decide Your Git Author Name and Email
 
-> Complete this section now if Git is already installed. If the `git` command is not found, return to this section immediately after installing Git in Part 2.
+Every Git commit contains an author name and email address. You will run the actual configuration commands in **Part 2**, as part of installing and setting up Git — not here. This section just settles what those values should be, so you can type them once, correctly, when the time comes.
 
-Open **Git Bash** on Windows or **Terminal** on macOS.
+Decide on:
 
-Set the name that should appear on your commits:
-
-```bash
-git config --global user.name "Your Name"
-```
-
-Set the email address that should appear on your commits:
-
-```bash
-git config --global user.email "your.email@example.com"
-```
-
-Replace the example values with your own information. Do not type `Your Name` or `your.email@example.com` literally.
-
-For example:
-
-```bash
-git config --global user.name "Alex Smith"
-git config --global user.email "12345678+alex-smith@users.noreply.github.com"
-```
-
-## Important Distinction
-
-The value assigned to `user.name` is normally your human-readable name—not your GitHub username.
+- **Author name** — normally your human-readable name, not your GitHub username.
+- **Author email** — the address you chose in the previous section (your verified GitHub email, or GitHub's private `noreply` address).
 
 ```text
 GitHub username: alex-smith
 Git author name: Alex Smith
+Git author email: 12345678+alex-smith@users.noreply.github.com
 ```
 
-The `--global` option applies these settings to repositories used by your computer account. You normally need to run these commands only once on each computer.
+Write down the exact values you intend to use. Part 2 will have you run:
 
-Git permanently records this information in new commits, so configure it before beginning course work. The official Git documentation describes this as part of the required [first-time Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+using the values you record now. Git permanently records this information in new commits, so it's worth getting right the first time. The official Git documentation describes this as part of the required [first-time Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
 ---
 
-# 7. Verify Your Git Identity
-
-Display the configured author name:
-
-```bash
-git config --global user.name
-```
-
-Display the configured email address:
-
-```bash
-git config --global user.email
-```
-
-Expected output will resemble:
-
-```text
-Alex Smith
-12345678+alex-smith@users.noreply.github.com
-```
-
-You can also inspect the relevant configuration values together:
-
-```bash
-git config --global --list
-```
-
-If a value is incorrect, run its configuration command again with the correct information. The new value will replace the old one.
-
----
-
-# 8. Record Your Course Account Information
+# 7. Record Your Course Account Information
 
 Record the following information somewhere you can find it later:
 
@@ -255,7 +208,6 @@ Before continuing to Part 2, confirm each item that applies:
 - [ ] I enabled two-factor authentication.
 - [ ] I stored my recovery codes securely.
 - [ ] I selected the email address Git should record in public commits.
-- [ ] If Git is installed, I configured `user.name` and `user.email`.
-- [ ] If Git is installed, I verified both configuration values.
+- [ ] I wrote down the exact Git author name and email I will configure in Part 2.
 
 Next: [**Part 2 — Install or Repair Git, Python, and Visual Studio Code**](./Part-02.md)
