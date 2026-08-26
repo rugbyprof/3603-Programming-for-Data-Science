@@ -38,7 +38,7 @@ By the end of this part, you should be able to:
 
 ---
 
-# 1. Understand the Four States of Your Work
+## 1. Understand the Four States of Your Work
 
 Git work moves through four useful states.
 
@@ -66,7 +66,7 @@ VS Code uses the same stage-and-commit model as command-line Git. See the offici
 
 ---
 
-# 2. Start Every Work Session Safely
+## 2. Start Every Work Session Safely
 
 Open the complete course repository in VS Code:
 
@@ -77,13 +77,13 @@ code .
 
 Open a VS Code terminal and activate `.venv` if necessary.
 
-## Windows — Git Bash
+### Windows — Git Bash
 
 ```bash
 source .venv/Scripts/activate
 ```
 
-## macOS
+### macOS
 
 ```bash
 source .venv/bin/activate
@@ -108,7 +108,7 @@ Never begin a new assignment by blindly ignoring existing changes.
 
 ---
 
-# 3. Receive Instructor Updates When Directed
+## 3. Receive Instructor Updates When Directed
 
 The instructor may publish new notebooks or corrections to the course repository.
 
@@ -136,13 +136,13 @@ It does not upload student work.
 
 If Git reports a conflict, stop and use the troubleshooting section. Do not force the pull and do not discard files to make the warning disappear.
 
-## Why Preserving Originals Matters
+### Why Preserving Originals Matters
 
 Instructor updates are easier to receive when instructor-provided notebooks remain unchanged. Your work will happen in a separate `Work` copy.
 
 ---
 
-# 4. Treat Instructor-Provided Notebooks as Originals
+## 4. Treat Instructor-Provided Notebooks as Originals
 
 Do not begin by editing the only instructor-provided copy.
 
@@ -163,7 +163,7 @@ This provides:
 
 ---
 
-# 5. Create the `Work` Folder
+## 5. Create the `Work` Folder
 
 If the repository does not already contain `Work`, create it in the VS Code Explorer:
 
@@ -185,7 +185,7 @@ Git does not track an empty folder. The folder will appear in Git after it conta
 
 ---
 
-# 6. Copy an Assigned Notebook into `Work`
+## 6. Copy an Assigned Notebook into `Work`
 
 Use the VS Code Explorer:
 
@@ -217,7 +217,7 @@ Do not rename the file merely to add words such as `final`, `final2`, `really-fi
 
 ---
 
-# 7. Confirm That You Copied Rather Than Moved
+## 7. Confirm That You Copied Rather Than Moved
 
 Check the VS Code Explorer.
 
@@ -278,7 +278,7 @@ Do not place passwords, API keys, database credentials, private URLs, access tok
 
 ---
 
-# 9. Make Local Checkpoint Commits
+## 9. Make Local Checkpoint Commits
 
 Git commits provide useful checkpoints even when you are not ready to publish.
 
@@ -290,7 +290,7 @@ A reasonable checkpoint occurs after:
 - producing a correct analysis or visualization; or
 - ending a work session.
 
-## Inspect the Changes
+### Inspect the Changes
 
 Run:
 
@@ -300,7 +300,7 @@ git status
 
 Open the VS Code Source Control view and select the notebook to review its notebook-aware diff.
 
-## Stage Only the Intended Notebook
+### Stage Only the Intended Notebook
 
 In VS Code:
 
@@ -324,7 +324,7 @@ git add .
 
 Staging a specific path reduces the chance of committing unrelated work, `.venv`, large data files, or secrets.
 
-## Review What Is Staged
+### Review What Is Staged
 
 Run:
 
@@ -335,7 +335,7 @@ git diff --cached --name-only
 
 Only intended files should appear.
 
-## Commit the Checkpoint
+### Commit the Checkpoint
 
 Use a short message that describes the work:
 
@@ -368,7 +368,7 @@ Only staged changes enter the commit. Unstaged changes remain on the computer fo
 
 ---
 
-# 10. Understand Local Commits and Public Repositories
+## 10. Understand Local Commits and Public Repositories
 
 After committing, run:
 
@@ -382,7 +382,7 @@ That is normal. It means local commits exist that have not been pushed.
 
 Do not push notebook work until the instructor permits or requires publication. Your repository is public, so pushed notebooks can be viewed by anyone.
 
-## Important: Pushes Include All Unpushed Commits
+### Important: Pushes Include All Unpushed Commits
 
 A push does not upload only the most recent file. It sends all reachable local commits that `origin/main` does not yet have.
 
@@ -397,7 +397,7 @@ If those commands include work that should not yet be public, do not push. Ask t
 
 ---
 
-# 11. Validate the Finished Notebook in `Work`
+## 11. Validate the Finished Notebook in `Work`
 
 Before moving the notebook:
 
@@ -416,7 +416,7 @@ This test proves that the notebook does not depend on hidden kernel state.
 
 ---
 
-# 12. Move the Finished Notebook into `Completed`
+## 12. Move the Finished Notebook into `Completed`
 
 When the notebook is finished, move the `Work` copy into `Completed`.
 
@@ -445,7 +445,7 @@ Completed/02-Working_with_Data/arrays.ipynb     ← student solution
 
 ---
 
-# 13. Reopen and Rerun from `Completed`
+## 13. Reopen and Rerun from `Completed`
 
 Moving a notebook can affect relative file paths.
 
@@ -463,7 +463,7 @@ The notebook must work where it will be graded—not merely where it was drafted
 
 ---
 
-# 14. Review the Completed Move with Git
+## 14. Review the Completed Move with Git
 
 Run:
 
@@ -492,7 +492,7 @@ Confirm that:
 
 ---
 
-# 15. Stage the Final Move
+## 15. Stage the Final Move
 
 The VS Code Source Control view is the clearest way to stage a notebook move.
 
@@ -524,7 +524,7 @@ git restore --staged "path/to/file"
 
 ---
 
-# 16. Commit the Completed Notebook
+## 16. Commit the Completed Notebook
 
 Create a final assignment commit:
 
@@ -548,7 +548,7 @@ Ideally, the working tree is clean. If changes remain, understand each one befor
 
 ---
 
-# 17. Inspect Everything That Will Be Published
+## 17. Inspect Everything That Will Be Published
 
 Before pushing to a public repository, inspect all unpushed commits:
 
@@ -582,7 +582,7 @@ If anything is questionable, do not push.
 
 ---
 
-# 18. Confirm the Push Destination
+## 18. Confirm the Push Destination
 
 Before every submission push, run:
 
@@ -602,7 +602,7 @@ Student work is pushed to `origin`, never to `upstream`.
 
 ---
 
-# 19. Push When Instructed
+## 19. Push When Instructed
 
 When publication is permitted and the assignment is ready:
 
@@ -626,7 +626,7 @@ GitHub documents the same `git push origin main` pattern in its [pushing commits
 
 ---
 
-# 20. Verify the Submission on GitHub
+## 20. Verify the Submission on GitHub
 
 Open your registered repository in a browser:
 
@@ -654,7 +654,7 @@ Only work visible in the registered GitHub repository can be retrieved from GitH
 
 ---
 
-# 21. Register the Repository with the Course
+## 21. Register the Repository with the Course
 
 The instructor will provide a Google Form used to associate course identities and repository information.
 
@@ -685,7 +685,7 @@ The repository URL normally remains the same for the entire course. Completed no
 
 ---
 
-# 22. The Repeatable Assignment Routine
+## 22. The Repeatable Assignment Routine
 
 For each notebook assignment:
 
@@ -710,9 +710,9 @@ For each notebook assignment:
 
 ---
 
-# Troubleshooting and Recovery
+## Troubleshooting and Recovery
 
-## `nothing to commit, working tree clean`
+### `nothing to commit, working tree clean`
 
 Possible explanations:
 
@@ -730,7 +730,7 @@ git status
 git log -1 --oneline
 ```
 
-## The Wrong File Was Staged
+### The Wrong File Was Staged
 
 Unstage it without deleting the work:
 
@@ -744,7 +744,7 @@ In VS Code, use the **−** control beside a file under **Staged Changes**.
 
 Unstaging is different from discarding. Do not select **Discard Changes** unless you deliberately intend to throw away uncommitted work.
 
-## The Wrong File Was Committed but Not Pushed
+### The Wrong File Was Committed but Not Pushed
 
 Do not panic and do not reset the repository.
 
@@ -756,7 +756,7 @@ The safest beginner response is usually:
 
 If unpublished work must be removed from history before a public push, ask the instructor for help.
 
-## The Push Was Rejected
+### The Push Was Rejected
 
 Do not use `--force`.
 
@@ -788,13 +788,13 @@ git remote -v
 
 Push only to your `origin`.
 
-## Work Was Pushed Too Early
+### Work Was Pushed Too Early
 
 Because the repository is public, assume pushed content may already have been seen or copied.
 
 Do not rewrite history or force-push in an attempt to hide it. Contact the instructor and explain exactly what was published.
 
-## A Password, Token, or Secret Was Committed
+### A Password, Token, or Secret Was Committed
 
 Treat the secret as compromised even if the commit was not intentionally shared.
 
@@ -805,7 +805,7 @@ Treat the secret as compromised even if the commit was not intentionally shared.
 
 GitHub emphasizes that revoking or rotating an exposed credential is the first response because deleted secrets may remain in history, clones, caches, and forks. See [GitHub’s sensitive-data guidance](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository).
 
-## `.venv` Appears in Git Changes
+### `.venv` Appears in Git Changes
 
 Do not stage it.
 
@@ -823,7 +823,7 @@ git restore --staged .venv
 
 If it was committed or pushed, ask the instructor for help. Do not attempt to solve the problem with a force-push.
 
-## The Instructor Original Was Modified
+### The Instructor Original Was Modified
 
 Do not discard it until you confirm that all student work exists safely in `Work` or `Completed`.
 
@@ -832,7 +832,7 @@ Do not discard it until you confirm that all student work exists safely in `Work
 3. Check `git status`.
 4. Ask the instructor to help restore the original without losing student changes.
 
-## A Notebook Fails After Moving to `Completed`
+### A Notebook Fails After Moving to `Completed`
 
 The notebook probably relies on a relative path based on its previous location.
 
@@ -846,7 +846,7 @@ print(Path.cwd())
 
 Use repository-relative paths, correct the notebook, restart the kernel, run all cells from the final location, and recommit.
 
-## Git Reports a Merge Conflict During an Instructor Update
+### Git Reports a Merge Conflict During an Instructor Update
 
 Stop and run:
 
@@ -864,7 +864,7 @@ Do not:
 
 Preserve the status output and ask the instructor for help. The separate `Work` workflow should make conflicts less common, but it cannot eliminate every possibility.
 
-## The GitHub Notebook Does Not Render
+### The GitHub Notebook Does Not Render
 
 The file may contain extremely large output or embedded data.
 
@@ -880,7 +880,7 @@ data.describe()
 
 Do not remove output required to support the assignment’s conclusions.
 
-## Local and GitHub Files Do Not Match
+### Local and GitHub Files Do Not Match
 
 Check whether commits remain unpublished:
 
@@ -891,7 +891,7 @@ git log --oneline origin/main..HEAD
 
 If commits appear and publication is permitted, push them to `origin` and refresh GitHub.
 
-## You Used Another Computer
+### You Used Another Computer
 
 Do not copy `.venv` between computers.
 
@@ -907,7 +907,7 @@ Push completed work from one computer before continuing on another, when course 
 
 ---
 
-# Commands to Avoid
+## Commands to Avoid
 
 Do not use these commands as generic fixes:
 
@@ -924,7 +924,7 @@ Do not paste commands from an unrelated troubleshooting page without understandi
 
 ---
 
-# Final Submission Checklist
+## Final Submission Checklist
 
 Before considering a notebook submitted:
 

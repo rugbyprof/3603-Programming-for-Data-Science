@@ -29,7 +29,7 @@ By the end of this part, you should be able to:
 
 ---
 
-# 1. Open the Entire Course Repository
+## 1. Open the Entire Course Repository
 
 Always open the repository folder in Visual Studio Code—not merely one notebook file.
 
@@ -51,7 +51,7 @@ Opening the entire repository allows VS Code to find:
 - Git configuration; and
 - the complete project structure.
 
-## Workspace Trust
+### Workspace Trust
 
 Visual Studio Code may ask whether you trust the repository.
 
@@ -61,19 +61,19 @@ A notebook contains executable code. Never select **Run All** in an unfamiliar n
 
 ---
 
-# 2. Confirm the Course Environment
+## 2. Confirm the Course Environment
 
 Open a VS Code terminal.
 
 Windows students should use Git Bash. Activate `.venv` if VS Code has not activated it automatically.
 
-## Windows — Git Bash
+### Windows — Git Bash
 
 ```bash
 source .venv/Scripts/activate
 ```
 
-## macOS
+### macOS
 
 ```bash
 source .venv/bin/activate
@@ -91,7 +91,7 @@ If `.venv` is missing or cannot be activated, return to Part 4 before opening co
 
 ---
 
-# 3. Open a Jupyter Notebook
+## 3. Open a Jupyter Notebook
 
 In the VS Code Explorer:
 
@@ -103,7 +103,7 @@ The notebook should appear as a sequence of cells rather than as raw JSON text.
 
 VS Code provides notebook support through Microsoft’s Jupyter extension. The official [Jupyter Notebooks in VS Code guide](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) describes the editor, cells, variable viewer, plots, and related tools.
 
-## If the Notebook Opens as JSON
+### If the Notebook Opens as JSON
 
 1. Right-click the editor tab or notebook file.
 2. Select **Reopen Editor With...** or **Open With...**.
@@ -120,7 +120,7 @@ Do not edit the raw JSON representation of a notebook.
 
 ---
 
-# 4. Select the `.venv` Kernel
+## 4. Select the `.venv` Kernel
 
 The **kernel** is the Python process that executes notebook code.
 
@@ -133,13 +133,13 @@ The **kernel** is the Python process that executes notebook code.
 
 The correct path ends with:
 
-## Windows
+### Windows
 
 ```text
 .venv\Scripts\python.exe
 ```
 
-## macOS
+### macOS
 
 ```text
 .venv/bin/python
@@ -147,7 +147,7 @@ The correct path ends with:
 
 VS Code remembers recently selected kernels, but always verify the selection when changing computers, recreating `.venv`, or opening a notebook for the first time. See [VS Code’s kernel-selection guide](https://code.visualstudio.com/docs/datascience/jupyter-kernel-management).
 
-## Verify from Inside the Notebook
+### Verify from Inside the Notebook
 
 Run this in a code cell:
 
@@ -162,7 +162,7 @@ The terminal environment and notebook kernel are related but separate selections
 
 ---
 
-# 5. Understand Notebook Cells
+## 5. Understand Notebook Cells
 
 A notebook is organized into cells.
 
@@ -188,7 +188,7 @@ Markdown cells do not execute Python. They render formatted text.
 
 ---
 
-# 6. Create a Practice Notebook
+## 6. Create a Practice Notebook
 
 Do not practice editing commands in a graded notebook.
 
@@ -206,7 +206,7 @@ This file is temporary and will be removed at the end of the tutorial.
 
 ---
 
-# 7. Work with Code Cells
+## 7. Work with Code Cells
 
 Enter this code in the first cell:
 
@@ -227,7 +227,7 @@ You may also use:
 
 On macOS, VS Code may display platform-specific key symbols in menus and tooltips. The cell’s Run button works on every platform.
 
-## Add a Code Cell
+### Add a Code Cell
 
 Use the **+ Code** control between cells or in the notebook toolbar.
 
@@ -240,7 +240,7 @@ sum(numbers)
 
 Run the cell. The final expression is displayed as output.
 
-## Edit and Rerun a Cell
+### Edit and Rerun a Cell
 
 Change the list and run the cell again:
 
@@ -262,7 +262,7 @@ Add a Markdown cell using **+ Markdown**.
 Enter:
 
 ```markdown
-# CMPS 3603 Notebook Practice
+## CMPS 3603 Notebook Practice
 
 This notebook demonstrates:
 
@@ -272,7 +272,7 @@ This notebook demonstrates:
 - Pandas data frames; and
 - Matplotlib visualizations.
 
-## Author
+### Author
 
 Your Name
 ```
@@ -305,7 +305,7 @@ Markdown should explain the reasoning, method, and conclusions—not merely deco
 
 ---
 
-# 9. Add, Move, Change, and Delete Cells
+## 9. Add, Move, Change, and Delete Cells
 
 When a cell is selected, VS Code displays controls for manipulating it.
 
@@ -325,7 +325,7 @@ Be careful when deleting cells. Undo immediately with `Ctrl+Z` on Windows or `Cm
 
 ---
 
-# 10. Build a Small Data-Science Example
+## 10. Build a Small Data-Science Example
 
 Add a code cell containing:
 
@@ -339,7 +339,7 @@ import pandas as pd
 
 Run it.
 
-## Create an Array
+### Create an Array
 
 Add and run:
 
@@ -350,7 +350,7 @@ y = x**2
 x, y
 ```
 
-## Create a Data Frame
+### Create a Data Frame
 
 Add and run:
 
@@ -367,7 +367,7 @@ results
 
 Pandas data frames are displayed as formatted tables in notebook output.
 
-## Create a Plot
+### Create a Plot
 
 Add and run:
 
@@ -383,7 +383,7 @@ plt.show()
 
 The chart should appear directly beneath the cell.
 
-## Add a Validation Cell
+### Add a Validation Cell
 
 Add and run:
 
@@ -398,7 +398,7 @@ Assertions are useful for checking assumptions. If an assertion is false, Python
 
 ---
 
-# 11. Understand Kernel State
+## 11. Understand Kernel State
 
 The kernel keeps variables in memory until it is restarted or stopped.
 
@@ -416,7 +416,7 @@ print(course_name)
 
 The second cell works only after the first cell has run in the current kernel session.
 
-## The Hidden-State Problem
+### The Hidden-State Problem
 
 Notebooks allow cells to be executed in any order. This can create a notebook that appears to work on one computer only because the kernel remembers earlier experiments.
 
@@ -436,7 +436,7 @@ The cure is simple:
 
 ---
 
-# 12. Read Execution Indicators
+## 12. Read Execution Indicators
 
 Code cells display execution status or execution counts.
 
@@ -456,17 +456,17 @@ Repeatedly starting the same expensive cell can make the problem worse.
 
 ---
 
-# 13. Interrupt, Restart, and Clear Output
+## 13. Interrupt, Restart, and Clear Output
 
 These operations solve different problems.
 
-## Interrupt
+### Interrupt
 
 Use **Interrupt** when a cell is taking too long, contains an infinite loop, or is performing an operation you want to stop.
 
 Interrupting attempts to stop the current calculation while preserving other variables in memory.
 
-## Restart
+### Restart
 
 Use **Restart Kernel** when:
 
@@ -478,7 +478,7 @@ Use **Restart Kernel** when:
 
 Restarting removes variables and imports from memory. It does not delete notebook cells or saved output.
 
-## Clear Output
+### Clear Output
 
 Clearing output removes displayed results from the notebook document. It does not undo computations or erase variables from the active kernel.
 
@@ -490,7 +490,7 @@ VS Code places interrupt, restart, run-all, and output controls in the main Note
 
 ---
 
-# 14. Inspect Variables and Data Frames
+## 14. Inspect Variables and Data Frames
 
 After running the practice notebook, select the **Variables** control in the notebook toolbar.
 
@@ -509,7 +509,7 @@ Your submitted notebook should still contain the Python operations needed to rep
 
 ---
 
-# 15. Use Relative File Paths
+## 15. Use Relative File Paths
 
 Notebooks may read CSV, JSON, image, or other data files.
 
@@ -548,7 +548,7 @@ When a completed notebook is moved into the `Completed` folder, run it again fro
 
 ---
 
-# 16. Save the Notebook
+## 16. Save the Notebook
 
 Save regularly with:
 
@@ -571,7 +571,7 @@ If you close a notebook with unsaved changes, VS Code should prompt you. Do not 
 
 ---
 
-# 17. Perform a Clean Top-to-Bottom Test
+## 17. Perform a Clean Top-to-Bottom Test
 
 This is the most important notebook habit in the course.
 
@@ -598,7 +598,7 @@ If the notebook fails after a restart, it was depending on hidden state or an in
 
 ---
 
-# 18. Review Notebook Changes with Git
+## 18. Review Notebook Changes with Git
 
 Save the practice notebook and open the VS Code Source Control view.
 
@@ -624,7 +624,7 @@ Display enough output to support the analysis without turning the notebook into 
 
 ---
 
-# 19. Remove the Practice Notebook
+## 19. Remove the Practice Notebook
 
 After completing the clean top-to-bottom test:
 
@@ -644,7 +644,7 @@ Do not delete a course notebook or the `Completed` folder.
 
 ---
 
-# Notebook Completion Standard
+## Notebook Completion Standard
 
 Before a course notebook is considered complete, it should satisfy all of these conditions:
 
@@ -661,9 +661,9 @@ Before a course notebook is considered complete, it should satisfy all of these 
 
 ---
 
-# Troubleshooting
+## Troubleshooting
 
-## No Kernel Is Available
+### No Kernel Is Available
 
 Confirm that `.venv` exists and contains `ipykernel`:
 
@@ -680,7 +680,7 @@ python -m pip install ipykernel
 
 Then run **Developer: Reload Window** and reopen the kernel selector.
 
-## The Wrong Kernel Keeps Returning
+### The Wrong Kernel Keeps Returning
 
 1. Select the kernel name in the notebook toolbar.
 2. Choose **Select Another Kernel**.
@@ -695,7 +695,7 @@ Then run **Developer: Reload Window** and reopen the kernel selector.
 
 If `.venv` was recently recreated, VS Code may temporarily display an obsolete interpreter entry. Select the entry whose path currently exists.
 
-## `ModuleNotFoundError`
+### `ModuleNotFoundError`
 
 First check the notebook interpreter:
 
@@ -715,13 +715,13 @@ python -m pip check
 
 Do not install an unrelated package merely because its name resembles the missing import.
 
-## `NameError: name ... is not defined`
+### `NameError: name ... is not defined`
 
 The cell that creates the variable may not have run, may have failed, or may appear later in the notebook.
 
 Restart the kernel and run the notebook from the beginning. If the error remains, correct the cell order or missing definition.
 
-## A Cell Never Finishes
+### A Cell Never Finishes
 
 1. Wait briefly and check the kernel status.
 2. Use **Interrupt** once.
@@ -731,7 +731,7 @@ Restart the kernel and run the notebook from the beginning. If the error remains
 
 Do not repeatedly select Run while the same cell is still executing.
 
-## The Kernel Crashes or Restarts
+### The Kernel Crashes or Restarts
 
 Possible causes include:
 
@@ -743,13 +743,13 @@ Possible causes include:
 
 Record the cell and error information. Restart the kernel and run cells individually. If ordinary course code continues to crash, recreate `.venv` using Part 4.
 
-## Output Is Stale or Contradicts the Code
+### Output Is Stale or Contradicts the Code
 
 The cell was edited after its output was produced, or cells were run out of order.
 
 Restart the kernel, run all cells, and save again.
 
-## A Plot Does Not Appear
+### A Plot Does Not Appear
 
 Confirm that:
 
@@ -767,7 +767,7 @@ plt.plot([1, 2, 3], [1, 4, 9])
 plt.show()
 ```
 
-## A Data File Cannot Be Found
+### A Data File Cannot Be Found
 
 Inspect the working directory and requested path:
 
@@ -781,7 +781,7 @@ print(Path("data/example.csv").exists())
 
 Use repository-relative paths and confirm that the data file exists in the cloned repository.
 
-## The Notebook Became Very Large
+### The Notebook Became Very Large
 
 Look for cells that displayed:
 
@@ -792,7 +792,7 @@ Look for cells that displayed:
 
 Clear only the accidental oversized output, rerun the cell with a smaller display such as `data.head()`, and save again.
 
-## VS Code Is in Restricted Mode
+### VS Code Is in Restricted Mode
 
 If you trust the instructor-provided repository:
 
@@ -802,13 +802,13 @@ If you trust the instructor-provided repository:
 
 Do not disable Workspace Trust globally.
 
-## Notebook Changes Are Difficult to Read in Git
+### Notebook Changes Are Difficult to Read in Git
 
 Open the notebook diff through VS Code’s Source Control view rather than opening the `.ipynb` file as text. Focus on changed cells and outputs.
 
 ---
 
-# Final Skills Check
+## Final Skills Check
 
 Before continuing, make sure you can perform each action without editing a graded notebook:
 
@@ -826,7 +826,7 @@ Before continuing, make sure you can perform each action without editing a grade
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] I opened the complete repository folder in VS Code.
 - [ ] I know how to open `.ipynb` files in the Notebook Editor.

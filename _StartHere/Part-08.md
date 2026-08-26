@@ -13,7 +13,7 @@ Use this page after completing Parts 1–7. It is a compact reminder, not a repl
 
 ---
 
-# The Complete Workflow
+## The Complete Workflow
 
 ```text
 Instructor repository (upstream)
@@ -31,9 +31,9 @@ Your public repository (origin)
 
 ---
 
-# 1. Accounts and Required Software
+## 1. Accounts and Required Software
 
-## GitHub Account
+### GitHub Account
 
 - Create a personal account at <https://github.com/signup>.
 - Verify the email address.
@@ -41,7 +41,7 @@ Your public repository (origin)
 - Save the recovery codes somewhere safe.
 - Record the exact GitHub username.
 
-## Required Software
+### Required Software
 
 - [Git](https://git-scm.com/downloads)
 - [Python 3.13](https://www.python.org/downloads/)
@@ -51,7 +51,7 @@ Your public repository (origin)
 
 Do not install Anaconda or Miniconda for this course. If Conda is already installed, make sure `(base)` is not active while working in the course repository.
 
-## Terminal
+### Terminal
 
 | System  | Use                                 |
 | ------- | ----------------------------------- |
@@ -60,7 +60,7 @@ Do not install Anaconda or Miniconda for this course. If Conda is already instal
 
 ---
 
-# 2. Configure Git Identity Once
+## 2. Configure Git Identity Once
 
 Replace the sample values with your real name and the email associated with GitHub:
 
@@ -80,7 +80,7 @@ These values become the author information recorded in your commits. They are se
 
 ---
 
-# 3. Verify the Installation
+## 3. Verify the Installation
 
 ## Windows — Git Bash
 
@@ -90,7 +90,7 @@ py -3.13 --version
 code --version
 ```
 
-## macOS
+### macOS
 
 ```bash
 git --version
@@ -102,7 +102,7 @@ Each command should display a version. Fix missing commands before continuing.
 
 ---
 
-# 4. Create the Student Repository on GitHub
+## 4. Create the Student Repository on GitHub
 
 Create one **empty public repository** named:
 
@@ -126,7 +126,7 @@ https://github.com/YOUR-USERNAME/3603-data-science-YOURLASTNAME.git
 
 ---
 
-# 5. Clone and Connect the Course Repository
+## 5. Clone and Connect the Course Repository
 
 Choose a location such as `Projects`, and then run these commands in Git Bash on Windows or Terminal on macOS:
 
@@ -173,11 +173,11 @@ code .
 
 ---
 
-# 6. Create the Python Environment Once
+## 6. Create the Python Environment Once
 
 Run these commands from the repository root.
 
-## Windows — Git Bash
+### Windows — Git Bash
 
 ```bash
 py -3.13 -m venv .venv
@@ -187,7 +187,7 @@ python -m pip install -r requirements.txt
 python -m pip install ipykernel
 ```
 
-## macOS
+### macOS
 
 ```bash
 python3.13 -m venv .venv
@@ -216,15 +216,15 @@ Never commit `.venv`. If it is missing or broken, recreate it from `requirements
 
 ---
 
-# 7. Select the VS Code Interpreter and Kernel
+## 7. Select the VS Code Interpreter and Kernel
 
-## Python Interpreter
+### Python Interpreter
 
 1. Open the Command Palette with `Ctrl+Shift+P` on Windows or `Cmd+Shift+P` on macOS.
 2. run **Python: Select Interpreter**;
 3. select the interpreter inside `.venv`.
 
-## Notebook Kernel
+### Notebook Kernel
 
 1. open a course `.ipynb` file;
 2. select **Select Kernel** in the upper-right corner;
@@ -240,7 +240,7 @@ macOS:   .venv/bin/python
 
 ---
 
-# 8. Start a Normal Work Session
+## 8. Start a Normal Work Session
 
 Open the repository, activate `.venv`, and inspect Git before editing.
 
@@ -252,13 +252,13 @@ git branch --show-current
 git remote -v
 ```
 
-## Windows — Activate `.venv`
+### Windows — Activate `.venv`
 
 ```bash
 source .venv/Scripts/activate
 ```
 
-## macOS — Activate `.venv`
+### macOS — Activate `.venv`
 
 ```bash
 source .venv/bin/activate
@@ -274,7 +274,7 @@ Confirm all of the following:
 
 ---
 
-# 9. Receive Instructor Updates
+## 9. Receive Instructor Updates
 
 First save and commit your current work. Begin the update only when `git status` reports a clean working tree.
 
@@ -309,7 +309,7 @@ Do not use VS Code **Sync Changes** for instructor updates. This course reposito
 
 ---
 
-# 10. Complete an Assigned Notebook
+## 10. Complete an Assigned Notebook
 
 Do not edit the only instructor-provided copy.
 
@@ -338,7 +338,7 @@ Instructor copy → Work → Completed
 
 ---
 
-# 11. Commit a Local Checkpoint
+## 11. Commit a Local Checkpoint
 
 You may commit locally throughout the assignment even when you have not been told to push.
 
@@ -380,7 +380,7 @@ A commit stays on your computer. A push publishes it to your public GitHub repos
 
 ---
 
-# 12. Push When Instructed
+## 12. Push When Instructed
 
 Before pushing, remember that the student repository is public. Do not publish passwords, access tokens, private data, answer keys, or work that the instructor has told you to keep local.
 
@@ -411,7 +411,7 @@ Do not assume that a successful local commit is a submitted assignment.
 
 ---
 
-# 13. Register the Repository
+## 13. Register the Repository
 
 Complete the course registration form provided by the instructor. Enter the exact requested information, including:
 
@@ -425,7 +425,7 @@ Copy the repository URL from the browser instead of typing it from memory. Test 
 
 ---
 
-# 14. End a Normal Work Session
+## 14. End a Normal Work Session
 
 Before closing VS Code:
 
@@ -450,7 +450,7 @@ deactivate
 
 ---
 
-# 15. Work from Another Computer
+## 15. Work from Another Computer
 
 On the first computer, save, commit, and push all permitted work before switching.
 
@@ -466,16 +466,16 @@ If your unpushed work remains on the first computer, it will not appear on the s
 
 ---
 
-# Fast Troubleshooting
+## Fast Troubleshooting
 
-## `python`, `git`, or `code` Is Not Found
+### `python`, `git`, or `code` Is Not Found
 
 - Close and reopen the terminal after installation.
 - On Windows, use Git Bash and try `py -3.13 --version`.
 - On macOS, try `python3.13 --version`.
 - Revisit Part 2 if the command still fails.
 
-## The Notebook Has No Kernel
+### The Notebook Has No Kernel
 
 Activate `.venv`, install `ipykernel`, and select `.venv` again:
 
@@ -483,7 +483,7 @@ Activate `.venv`, install `ipykernel`, and select `.venv` again:
 python -m pip install ipykernel
 ```
 
-## `ModuleNotFoundError`
+### `ModuleNotFoundError`
 
 Make sure the notebook uses `.venv`, then install the course requirements:
 
@@ -491,7 +491,7 @@ Make sure the notebook uses `.venv`, then install the course requirements:
 python -m pip install -r requirements.txt
 ```
 
-## `fatal: not a git repository`
+### `fatal: not a git repository`
 
 You are in the wrong folder. Move into the repository:
 
@@ -500,7 +500,7 @@ cd ~/Projects/3603-data-science-YOURLASTNAME
 git status
 ```
 
-## A Push Is Rejected
+### A Push Is Rejected
 
 Do not force-push. Fetch the student repository and inspect the situation:
 
@@ -519,7 +519,7 @@ git push origin main
 
 If Git reports a conflict, stop and resolve it carefully before pushing.
 
-## An Instructor Update Causes a Conflict
+### An Instructor Update Causes a Conflict
 
 - Do not delete files merely to silence Git.
 - Do not force-push.
@@ -527,7 +527,7 @@ If Git reports a conflict, stop and resolve it carefully before pushing.
 - For a notebook conflict, preserve copies of both versions and ask for help.
 - If the merge has not been committed and you need to return to the pre-merge state, the instructor may direct you to use `git merge --abort`.
 
-## `.venv` Files Appear in `git status`
+### `.venv` Files Appear in `git status`
 
 Do not commit them. Confirm that `.gitignore` contains:
 
@@ -537,14 +537,14 @@ Do not commit them. Confirm that `.gitignore` contains:
 
 Ask for help if `.venv` has already been committed.
 
-## GitHub Authentication Fails
+### GitHub Authentication Fails
 
 - Confirm that `origin` contains your username.
 - Complete the browser sign-in prompt if it appears.
 - GitHub account passwords are not accepted as Git passwords.
 - In VS Code, open **View → Output**, then choose **Git** for the detailed error.
 
-## Collect Safe Diagnostic Information
+### Collect Safe Diagnostic Information
 
 When asking for help, copy the output of:
 
@@ -561,7 +561,7 @@ Do not share passwords, tokens, recovery codes, or private keys.
 
 ---
 
-# Commands to Avoid Without Instructor Guidance
+## Commands to Avoid Without Instructor Guidance
 
 Do not try random destructive commands from search results. In particular, pause before using:
 
@@ -576,7 +576,7 @@ An error message is useful evidence. Preserve it and ask for help before destroy
 
 ---
 
-# Submission Checklist
+## Submission Checklist
 
 - [ ] I worked in a copy of the instructor notebook.
 - [ ] The finished notebook is inside `Completed`.
@@ -595,7 +595,7 @@ An error message is useful evidence. Preserve it and ask for help before destroy
 
 ---
 
-# Detailed Guides
+## Detailed Guides
 
 Use the full guide when this reference does not provide enough detail:
 
@@ -609,7 +609,7 @@ Use the full guide when this reference does not provide enough detail:
 
 ---
 
-# The Five Commands Worth Remembering
+## The Five Commands Worth Remembering
 
 ```bash
 git status

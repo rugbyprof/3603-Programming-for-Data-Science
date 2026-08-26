@@ -22,7 +22,7 @@ By the end of this part, you should have:
 
 ---
 
-# 1. Understand the Purpose of `.venv`
+## 1. Understand the Purpose of `.venv`
 
 A Python virtual environment is an isolated Python installation for one project.
 
@@ -48,7 +48,7 @@ It does **not** contain your notebooks or other course work.
 
 Python’s documentation describes virtual environments as isolated, disposable, and unsuitable for committing to source control. If an environment breaks, it should be recreated from `requirements.txt` rather than repaired package by package. See the official [`venv` documentation](https://docs.python.org/3/library/venv.html).
 
-## One Repository, One Environment
+### One Repository, One Environment
 
 For this course:
 
@@ -72,7 +72,7 @@ Do not use Conda for this repository.
 
 ---
 
-# 2. Open the Course Repository
+## 2. Open the Course Repository
 
 Open Visual Studio Code and open your local course folder.
 
@@ -115,7 +115,7 @@ If the file is not found, stop. You are probably in the wrong folder.
 
 ---
 
-# 3. Confirm That Conda Is Not Active
+## 3. Confirm That Conda Is Not Active
 
 Look at the beginning of the terminal prompt.
 
@@ -143,11 +143,11 @@ Do not create `.venv` while a Conda environment is active. That produces an unne
 
 ---
 
-# 4. Create `.venv`
+## 4. Create `.venv`
 
 Use the command for your operating system.
 
-## Windows — Git Bash
+### Windows — Git Bash
 
 ```bash
 py -V:3.13 -m venv .venv
@@ -155,7 +155,7 @@ py -V:3.13 -m venv .venv
 
 This explicitly creates the environment with standard Python 3.13, even if other Python versions are installed.
 
-## macOS
+### macOS
 
 ```bash
 python3.13 -m venv .venv
@@ -163,7 +163,7 @@ python3.13 -m venv .venv
 
 The command may take a few seconds and may produce no output when successful.
 
-## Confirm That the Folder Exists
+### Confirm That the Folder Exists
 
 Run:
 
@@ -177,19 +177,19 @@ Do not manually place notebooks or other files inside `.venv`.
 
 ---
 
-# 5. Activate `.venv`
+## 5. Activate `.venv`
 
 Activation changes the terminal so that `python` and `pip` refer to the project environment.
 
 Use the command for your operating system.
 
-## Windows — Git Bash
+### Windows — Git Bash
 
 ```bash
 source .venv/Scripts/activate
 ```
 
-## macOS
+### macOS
 
 ```bash
 source .venv/bin/activate
@@ -211,7 +211,7 @@ If the prompt begins with both `(base)` and `(.venv)`, stop and deactivate both 
 
 ---
 
-# 6. Verify the Active Python Interpreter
+## 6. Verify the Active Python Interpreter
 
 After activation, the same verification commands work on Windows and macOS.
 
@@ -259,7 +259,7 @@ Its displayed location must also be inside `.venv`.
 
 ---
 
-# 7. Upgrade `pip` Inside `.venv`
+## 7. Upgrade `pip` Inside `.venv`
 
 Run:
 
@@ -279,7 +279,7 @@ Do not install the course packages globally.
 
 ---
 
-# 8. Install the Course Requirements
+## 8. Install the Course Requirements
 
 The repository contains `requirements.txt`, which lists packages needed for the course.
 
@@ -307,7 +307,7 @@ That is not an error. It means the required package is already present in `.venv
 
 The `-r` option tells `pip` to install the package specifications from a requirements file. See the official [pip requirements instructions](https://pip.pypa.io/en/stable/getting-started/#install-multiple-packages-using-a-requirements-file).
 
-## Do Not Overwrite `requirements.txt`
+### Do Not Overwrite `requirements.txt`
 
 Do not run:
 
@@ -319,7 +319,7 @@ The instructor’s requirements file defines the course environment. Students sh
 
 ---
 
-# 9. Ensure That `ipykernel` Is Installed
+## 9. Ensure That `ipykernel` Is Installed
 
 VS Code requires `ipykernel` to run the selected Python environment as a Jupyter notebook kernel.
 
@@ -335,7 +335,7 @@ The full Jupyter application does not need to be installed globally. VS Code’s
 
 ---
 
-# 10. Check the Installed Packages
+## 10. Check the Installed Packages
 
 Check for incompatible installed dependencies:
 
@@ -371,7 +371,7 @@ If this command reports a missing package, use the troubleshooting section befor
 
 ---
 
-# 11. Confirm That `.venv` Is Ignored by Git
+## 11. Confirm That `.venv` Is Ignored by Git
 
 The virtual environment contains many generated files and must not be uploaded to GitHub.
 
@@ -391,7 +391,7 @@ git status --short
 
 The output should not list thousands of `.venv` files.
 
-## If `.venv` Is Not Ignored
+### If `.venv` Is Not Ignored
 
 Open the repository’s root `.gitignore` file in VS Code and add:
 
@@ -413,7 +413,7 @@ Do not use `git add -f` to force `.venv` into the repository.
 
 ---
 
-# 12. Select `.venv` as the VS Code Python Interpreter
+## 12. Select `.venv` as the VS Code Python Interpreter
 
 Visual Studio Code needs to know which Python interpreter belongs to the project.
 
@@ -445,7 +445,7 @@ or may display a path ending in:
 
 The selected environment appears in the VS Code status bar. VS Code uses it for running Python, IntelliSense, debugging, and related language features. See [Python environments in VS Code](https://code.visualstudio.com/docs/python/environments).
 
-## If `.venv` Does Not Appear
+### If `.venv` Does Not Appear
 
 1. Confirm that the repository folder—not merely one notebook—is open in VS Code.
 2. Confirm that `.venv` exists in the repository root.
@@ -455,7 +455,7 @@ The selected environment appears in the VS Code status bar. VS Code uses it for 
 
 ---
 
-# 13. Select `.venv` as the Jupyter Kernel
+## 13. Select `.venv` as the Jupyter Kernel
 
 Open one of the course `.ipynb` files in Visual Studio Code.
 
@@ -477,7 +477,7 @@ Do not select:
 
 ---
 
-# 14. Test the Kernel Without Changing a Course Notebook
+## 14. Test the Kernel Without Changing a Course Notebook
 
 Create a temporary unsaved notebook:
 
@@ -512,7 +512,7 @@ Close this temporary notebook without saving it. Do not use a graded course note
 
 ---
 
-# 15. Deactivate and Reactivate the Environment
+## 15. Deactivate and Reactivate the Environment
 
 Deactivate the terminal environment:
 
@@ -524,13 +524,13 @@ The `(.venv)` prefix should disappear.
 
 Reactivate it when returning to the project.
 
-## Windows — Git Bash
+### Windows — Git Bash
 
 ```bash
 source .venv/Scripts/activate
 ```
 
-## macOS
+### macOS
 
 ```bash
 source .venv/bin/activate
@@ -540,7 +540,7 @@ VS Code may automatically activate the selected environment when it creates a ne
 
 ---
 
-# Normal Environment Workflow
+## Normal Environment Workflow
 
 Each time you work on the course:
 
@@ -555,7 +555,7 @@ The environment does not need to be recreated each day.
 
 ---
 
-# Repair a Broken Environment
+## Repair a Broken Environment
 
 The `.venv` directory is generated from Python and `requirements.txt`. It is disposable.
 
@@ -611,9 +611,9 @@ Deleting `.venv` does not delete notebooks or Git history, provided you delete o
 
 ---
 
-# Troubleshooting
+## Troubleshooting
 
-## `requirements.txt` Is Not Found
+### `requirements.txt` Is Not Found
 
 You are probably in the wrong folder.
 
@@ -631,17 +631,17 @@ Move to the repository root before installing:
 cd ~/Projects/3603-data-science-YOURLASTNAME
 ```
 
-## `No module named venv`
+### `No module named venv`
 
 Confirm that you are using the course’s standard Python 3.13 installation.
 
-### Windows
+#### Windows
 
 ```bash
 py -V:3.13 --version
 ```
 
-### macOS
+#### macOS
 
 ```bash
 python3.13 --version
@@ -649,7 +649,7 @@ python3.13 --version
 
 If the command fails, return to Part 2 and repair the base Python installation.
 
-## Windows: `source .venv/Scripts/activate` Fails
+### Windows: `source .venv/Scripts/activate` Fails
 
 Confirm all of the following:
 
@@ -666,7 +666,7 @@ ls .venv/Scripts
 
 If you are in PowerShell, close that terminal and open Git Bash. Do not change PowerShell execution policy for this course workflow.
 
-## macOS: `source .venv/bin/activate` Fails
+### macOS: `source .venv/bin/activate` Fails
 
 Confirm the folder exists:
 
@@ -676,7 +676,7 @@ ls .venv/bin
 
 If it does not, recreate `.venv` using `python3.13 -m venv .venv`.
 
-## The Prompt Does Not Show `(.venv)`
+### The Prompt Does Not Show `(.venv)`
 
 Run:
 
@@ -686,7 +686,7 @@ python -c "import sys; print(sys.executable)"
 
 The interpreter path is more reliable than the appearance of the prompt. If the path does not contain `.venv`, activate the environment again.
 
-## Package Installation Reports `Permission denied`
+### Package Installation Reports `Permission denied`
 
 Check the active interpreter:
 
@@ -698,7 +698,7 @@ If the path does not contain `.venv`, activate the environment before installing
 
 Do not solve the problem with `sudo`, administrator mode, or a global package installation.
 
-## `No matching distribution found`
+### `No matching distribution found`
 
 First verify the interpreter:
 
@@ -718,7 +718,7 @@ python -m pip install -r requirements.txt
 
 If the same package fails again, record the complete error and show it to the instructor. Do not substitute an arbitrary package version.
 
-## macOS Reports an SSL Certificate Error
+### macOS Reports an SSL Certificate Error
 
 Open:
 
@@ -734,7 +734,7 @@ Install Certificates.command
 
 Then close and reopen the terminal, reactivate `.venv`, and retry.
 
-## VS Code Shows the Wrong Kernel
+### VS Code Shows the Wrong Kernel
 
 1. Select the kernel name in the notebook’s upper-right corner.
 2. Select **Select Another Kernel**.
@@ -748,7 +748,7 @@ import sys
 print(sys.executable)
 ```
 
-## VS Code Says `ipykernel` Is Missing
+### VS Code Says `ipykernel` Is Missing
 
 Activate `.venv` and run:
 
@@ -758,19 +758,19 @@ python -m pip install ipykernel
 
 Reload VS Code and select the `.venv` kernel again.
 
-## A Package Imports in the Terminal but Not the Notebook
+### A Package Imports in the Terminal but Not the Notebook
 
 The terminal and notebook are using different interpreters.
 
 Compare:
 
-### Terminal
+#### Terminal
 
 ```bash
 python -c "import sys; print(sys.executable)"
 ```
 
-### Notebook cell
+#### Notebook cell
 
 ```python
 import sys
@@ -779,7 +779,7 @@ print(sys.executable)
 
 Both paths must point into the same `.venv` folder.
 
-## `git status` Lists Thousands of `.venv` Files
+### `git status` Lists Thousands of `.venv` Files
 
 Do not stage or commit them.
 
@@ -797,7 +797,7 @@ git status --short
 
 If `.venv` files were already staged, ask the instructor for help before continuing. Do not use a force-add command.
 
-## The Terminal Shows `(base)` and `(.venv)`
+### The Terminal Shows `(base)` and `(.venv)`
 
 Deactivate environments until both labels disappear:
 
@@ -810,7 +810,7 @@ Close the terminal, open a new terminal, verify that `(base)` is absent, and act
 
 ---
 
-# Final Verification
+## Final Verification
 
 With `.venv` activated, run:
 
@@ -836,7 +836,7 @@ Confirm that:
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] I created `.venv` inside the course repository.
 - [ ] I created it with standard Python 3.13.

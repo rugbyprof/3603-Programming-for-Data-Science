@@ -39,7 +39,7 @@ By the end of this part, you should be able to:
 
 ---
 
-# 1. Understand the Three Versions of `main`
+## 1. Understand the Three Versions of `main`
 
 Your repository normally contains three related branch references.
 
@@ -55,7 +55,7 @@ Fetching does not edit notebooks or merge changes into `main`.
 
 ---
 
-# 2. Begin with a Repository Health Check
+## 2. Begin with a Repository Health Check
 
 Open the complete repository folder and its VS Code terminal:
 
@@ -92,7 +92,7 @@ Do not pull, merge, or push until these relationships are correct.
 
 ---
 
-# 3. Keep the Working Tree Clean Before Updates
+## 3. Keep the Working Tree Clean Before Updates
 
 Run:
 
@@ -119,7 +119,7 @@ Do not use a stash merely to hide work you do not understand. A normal checkpoin
 
 ---
 
-# 4. Fetch Instructor Updates Without Changing Files
+## 4. Fetch Instructor Updates Without Changing Files
 
 Fetch from the instructor repository:
 
@@ -133,7 +133,7 @@ This makes fetching a safe first step when you want to see whether the instructo
 
 Git’s official [`fetch` documentation](https://git-scm.com/docs/git-fetch.html) describes fetch as updating remote-tracking information without automatically merging it into the current branch.
 
-## Inspect Incoming Commits
+### Inspect Incoming Commits
 
 List commits available from the instructor that are not yet in your local branch:
 
@@ -159,7 +159,7 @@ Review new or changed assignment instructions before merging.
 
 ---
 
-# 5. Merge Instructor Updates into `main`
+## 5. Merge Instructor Updates into `main`
 
 After confirming that the working tree is clean and reviewing incoming changes, merge them:
 
@@ -182,7 +182,7 @@ git log --oneline --decorate -5
 
 If a conflict occurs, Git pauses the merge. Do not begin running unrelated Git commands. Follow the merge-conflict section below.
 
-## Fetch-and-Merge Versus Pull
+### Fetch-and-Merge Versus Pull
 
 This two-step sequence:
 
@@ -201,7 +201,7 @@ The two-step form is preferred here because it gives you an opportunity to inspe
 
 ---
 
-# 6. Understand What Instructor Updates Do Not Change
+## 6. Understand What Instructor Updates Do Not Change
 
 Instructor updates modify instructor-controlled paths in your local `main` after merging.
 
@@ -220,7 +220,7 @@ This separation is intentional: it protects student work from being overwritten 
 
 ---
 
-# 7. Decide Whether Instructor Updates Should Be Pushed
+## 7. Decide Whether Instructor Updates Should Be Pushed
 
 After merging `upstream/main`, your local `main` may be ahead of `origin/main`.
 
@@ -241,7 +241,7 @@ Instructor material is already public, but your same branch may also contain unp
 
 ---
 
-# 8. Use Explicit Git Commands Instead of VS Code Sync
+## 8. Use Explicit Git Commands Instead of VS Code Sync
 
 VS Code’s **Sync Changes** operation normally pulls from the tracked remote and then pushes local commits.
 
@@ -265,7 +265,7 @@ Do not select **Sync Changes** without understanding both the incoming and outgo
 
 ---
 
-# 9. Inspect Your Relationship with `origin`
+## 9. Inspect Your Relationship with `origin`
 
 Fetch the current state of your public repository:
 
@@ -281,7 +281,7 @@ git status -sb
 
 Possible results include:
 
-## Up to Date
+### Up to Date
 
 ```text
 ## main...origin/main
@@ -289,7 +289,7 @@ Possible results include:
 
 Your local and public branches currently point to the same commit.
 
-## Ahead
+### Ahead
 
 ```text
 ## main...origin/main [ahead 3]
@@ -297,7 +297,7 @@ Your local and public branches currently point to the same commit.
 
 You have three local commits not yet published.
 
-## Behind
+### Behind
 
 ```text
 ## main...origin/main [behind 2]
@@ -305,7 +305,7 @@ You have three local commits not yet published.
 
 The public repository contains two commits not present on this computer. This may happen if you used another computer or edited files on GitHub.
 
-## Diverged
+### Diverged
 
 ```text
 ## main...origin/main [ahead 2, behind 1]
@@ -315,7 +315,7 @@ Both locations contain different commits. Do not push forcefully. Inspect the hi
 
 ---
 
-# 10. View the Repository History
+## 10. View the Repository History
 
 Display a useful history graph:
 
@@ -337,7 +337,7 @@ Do not choose reset, rebase, delete, or force-push operations merely because the
 
 ---
 
-# 11. Maintain a Repository from One Computer
+## 11. Maintain a Repository from One Computer
 
 The simplest and safest arrangement is to use one computer for notebook work.
 
@@ -362,7 +362,7 @@ Local commits protect against editing mistakes but do not protect against loss o
 
 ---
 
-# 12. Work from More Than One Computer
+## 12. Work from More Than One Computer
 
 Using multiple computers introduces the possibility that each computer contains different commits.
 
@@ -376,7 +376,7 @@ The safest sequence is:
 4. Push to `origin`.
 5. Verify the push on GitHub.
 
-## Begin on Computer B
+### Begin on Computer B
 
 1. Open the existing clone or clone your own `origin` repository.
 2. Fetch `origin`:
@@ -406,7 +406,7 @@ The safest sequence is:
 
 7. Continue working only after the new computer is current.
 
-## When Student Work Cannot Yet Be Public
+### When Student Work Cannot Yet Be Public
 
 If course policy does not permit pushing the current work, avoid editing the same notebook on multiple computers. GitHub cannot transfer unpublished commits between computers without publishing them to the remote repository.
 
@@ -416,7 +416,7 @@ Do not place the same active Git repository inside OneDrive, iCloud Drive, Dropb
 
 ---
 
-# 13. Clone Your Student Repository on a Replacement Computer
+## 13. Clone Your Student Repository on a Replacement Computer
 
 If the original computer is unavailable, clone your own repository—not the instructor repository—as the starting point:
 
@@ -446,7 +446,7 @@ Any commits that existed only on the lost computer and were never pushed cannot 
 
 ---
 
-# 14. Avoid Editing Course Files Directly on GitHub
+## 14. Avoid Editing Course Files Directly on GitHub
 
 GitHub allows files to be edited in a web browser. Avoid editing course notebooks or repository files there while also working locally.
 
@@ -464,7 +464,7 @@ Do not make the same notebook changes independently in the browser and on the co
 
 ---
 
-# 15. Understand Merge Conflicts
+## 15. Understand Merge Conflicts
 
 A merge conflict occurs when Git cannot determine how to combine competing changes automatically.
 
@@ -487,7 +487,7 @@ Git lists the conflicting paths and indicates that a merge is in progress.
 
 ---
 
-# 16. Resolve a Simple Text Conflict in VS Code
+## 16. Resolve a Simple Text Conflict in VS Code
 
 For a small conflict in Markdown, text, Python, or configuration files:
 
@@ -522,7 +522,7 @@ VS Code’s [merge-conflict guide](https://code.visualstudio.com/docs/sourcecont
 
 ---
 
-# 17. Treat Notebook Conflicts Differently
+## 17. Treat Notebook Conflicts Differently
 
 An `.ipynb` file is structured JSON containing cells, metadata, and output. A notebook conflict can be difficult to resolve safely as raw text.
 
@@ -539,7 +539,7 @@ This is one reason student work belongs under `Work` and `Completed` while instr
 
 ---
 
-# 18. Abort an Unwanted Merge Carefully
+## 18. Abort an Unwanted Merge Carefully
 
 If a merge was started from a clean working tree and you have not created conflict-resolution work that must be kept, you may return to the pre-merge state with:
 
@@ -560,7 +560,7 @@ Aborting a merge is not a substitute for understanding why the conflict occurred
 
 ---
 
-# 19. Repair Incorrect Remote URLs
+## 19. Repair Incorrect Remote URLs
 
 Inspect the current configuration:
 
@@ -568,25 +568,25 @@ Inspect the current configuration:
 git remote -v
 ```
 
-## Correct an Existing `origin`
+### Correct an Existing `origin`
 
 ```bash
 git remote set-url origin https://github.com/YOUR-USERNAME/3603-data-science-YOURLASTNAME.git
 ```
 
-## Correct an Existing `upstream`
+### Correct an Existing `upstream`
 
 ```bash
 git remote set-url upstream https://github.com/rugbyprof/3603-Programming-for-Data-Science.git
 ```
 
-## Add a Missing `origin`
+### Add a Missing `origin`
 
 ```bash
 git remote add origin https://github.com/YOUR-USERNAME/3603-data-science-YOURLASTNAME.git
 ```
 
-## Add a Missing `upstream`
+### Add a Missing `upstream`
 
 ```bash
 git remote add upstream https://github.com/rugbyprof/3603-Programming-for-Data-Science.git
@@ -598,7 +598,7 @@ Never change a remote URL based only on a guess. Copy the HTTPS URL from the cor
 
 ---
 
-# 20. Diagnose Authentication Problems
+## 20. Diagnose Authentication Problems
 
 Symptoms may include:
 
@@ -618,7 +618,7 @@ Then confirm that VS Code is signed in to the GitHub account that owns that repo
 
 GitHub does not accept a normal account password for HTTPS Git operations. Use the browser or credential-manager flow provided by Git and VS Code.
 
-## Open the Git Output Window
+### Open the Git Output Window
 
 In VS Code:
 
@@ -635,7 +635,7 @@ Review logs before sharing them. Remove tokens, credentials, or other sensitive 
 
 ---
 
-# 21. Respond to a Non-Fast-Forward Push Rejection
+## 21. Respond to a Non-Fast-Forward Push Rejection
 
 A rejection may resemble:
 
@@ -674,7 +674,7 @@ GitHub explains that non-fast-forward protection prevents a push from losing rem
 
 ---
 
-# 22. Respond When Pull Refuses Local Changes
+## 22. Respond When Pull Refuses Local Changes
 
 Git may refuse a pull because local changes would be overwritten.
 
@@ -698,7 +698,7 @@ Retry the fetch and merge only after the working tree is clean.
 
 ---
 
-# 23. Respond When Untracked Files Would Be Overwritten
+## 23. Respond When Untracked Files Would Be Overwritten
 
 Git may stop because an incoming file has the same path as an untracked local file.
 
@@ -714,7 +714,7 @@ An untracked file has no Git history. Treat it carefully.
 
 ---
 
-# 24. Understand Line-Ending Warnings
+## 24. Understand Line-Ending Warnings
 
 Windows students may see warnings mentioning `LF` and `CRLF`.
 
@@ -732,7 +732,7 @@ If a text file appears to have every line changed unexpectedly, show the diff to
 
 ---
 
-# 25. Respond to an Oversized File
+## 25. Respond to an Oversized File
 
 GitHub rejects individual files larger than its normal file-size limit, and large notebook output can make repositories difficult to use.
 
@@ -754,7 +754,7 @@ If the file is already present in one or more commits, a later deletion may not 
 
 ---
 
-# 26. Recover a Deleted Notebook
+## 26. Recover a Deleted Notebook
 
 First check the Windows Recycle Bin or macOS Trash if the file was deleted through VS Code or the file manager.
 
@@ -771,7 +771,7 @@ Do not run a broad reset that affects the entire repository merely to recover on
 
 ---
 
-# 27. Respond to a Detached HEAD
+## 27. Respond to a Detached HEAD
 
 `git status` may report:
 
@@ -791,7 +791,7 @@ If you edited or committed work while detached, do not switch until that work is
 
 ---
 
-# 28. Respond When VS Code Does Not Detect Git
+## 28. Respond When VS Code Does Not Detect Git
 
 Confirm Git works in the terminal:
 
@@ -816,7 +816,7 @@ VS Code uses the Git installed on the computer. GitHub Desktop does not replace 
 
 ---
 
-# 29. Respond to an `index.lock` Error
+## 29. Respond to an `index.lock` Error
 
 Git may report that `.git/index.lock` already exists.
 
@@ -835,7 +835,7 @@ If the error persists, show the instructor the exact message before altering `.g
 
 ---
 
-# 30. Do Not Rename the Repository Mid-Course
+## 30. Do Not Rename the Repository Mid-Course
 
 The registered URL is expected to remain stable:
 
@@ -859,7 +859,7 @@ Do not rename the repository merely for cosmetic reasons.
 
 ---
 
-# 31. Maintain the `Completed` Archive
+## 31. Maintain the `Completed` Archive
 
 The `Completed` folder accumulates submitted notebook work throughout the course.
 
@@ -878,7 +878,7 @@ The repository itself becomes a course portfolio.
 
 ---
 
-# 32. Collect a Useful Diagnostic Report
+## 32. Collect a Useful Diagnostic Report
 
 When requesting help, run these commands from the repository and copy their output:
 
@@ -916,7 +916,7 @@ A screenshot of only the final error line is often less useful than the complete
 
 ---
 
-# 33. Commands That Require Instructor Guidance
+## 33. Commands That Require Instructor Guidance
 
 Do not use these commands as generic repairs:
 
@@ -942,9 +942,9 @@ Then preserve the output and ask for help.
 
 ---
 
-# Routine Maintenance Checklist
+## Routine Maintenance Checklist
 
-## Before Starting Work
+### Before Starting Work
 
 - [ ] I opened the correct repository folder.
 - [ ] I am on `main`.
@@ -954,7 +954,7 @@ Then preserve the output and ask for help.
 - [ ] I merged updates only from a clean working tree.
 - [ ] `.venv` is the active course environment.
 
-## Before Ending Work
+### Before Ending Work
 
 - [ ] I saved every notebook.
 - [ ] I reviewed changes in Source Control.
@@ -962,7 +962,7 @@ Then preserve the output and ask for help.
 - [ ] I understand whether local `main` is ahead of `origin/main`.
 - [ ] I did not use Sync or Push unintentionally.
 
-## Before Pushing
+### Before Pushing
 
 - [ ] Publication is permitted.
 - [ ] I reviewed every unpushed commit.
@@ -974,7 +974,7 @@ Then preserve the output and ask for help.
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] I understand `main`, `origin/main`, and `upstream/main`.
 - [ ] I can fetch instructor changes without modifying working files.

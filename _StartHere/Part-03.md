@@ -31,7 +31,7 @@ By the end of this part, you should have:
 
 ---
 
-# Before You Begin
+## Before You Begin
 
 Confirm that you completed Parts 1 and 2.
 
@@ -62,7 +62,7 @@ Use your actual name and your chosen verified or GitHub `noreply` email address.
 
 ---
 
-# 1. Choose the Repository Name
+### 1. Choose the Repository Name
 
 Your repository must use this pattern:
 
@@ -97,7 +97,7 @@ My repository name: __________________________________________
 
 ---
 
-# 2. Create an Empty Public Repository on GitHub
+### 2. Create an Empty Public Repository on GitHub
 
 The repository must be **empty** because it will receive the existing files and history from the course repository.
 
@@ -140,7 +140,7 @@ Keep this browser tab open. You will use the URL shortly.
 
 ---
 
-# 3. Open the Correct Terminal
+### 3. Open the Correct Terminal
 
 ## Windows
 
@@ -162,7 +162,7 @@ The following Git commands are the same on both systems.
 
 ---
 
-# 4. Choose a Parent Folder
+### 4. Choose a Parent Folder
 
 Create a general folder for programming projects:
 
@@ -188,7 +188,7 @@ Do not clone the course repository inside another Git repository.
 
 ---
 
-# 5. Clone the Instructor’s Course Repository
+### 5. Clone the Instructor’s Course Repository
 
 The instructor repository is:
 
@@ -216,7 +216,7 @@ A ZIP download contains files but does not contain the useful local Git configur
 
 ---
 
-# 6. Enter the Repository Folder
+### 6. Enter the Repository Folder
 
 Change into the folder created by `git clone`. Use your own repository name:
 
@@ -260,7 +260,7 @@ Do not run `git init`. The cloned folder is already a Git repository.
 
 ---
 
-# 7. Examine the Initial Remote
+### 7. Examine the Initial Remote
 
 Run:
 
@@ -281,7 +281,7 @@ We will rename it.
 
 ---
 
-# 8. Rename the Instructor Remote to `upstream`
+### 8. Rename the Instructor Remote to `upstream`
 
 Run:
 
@@ -308,7 +308,7 @@ You will eventually pull new course material from `upstream`. You will not push 
 
 ---
 
-# 9. Add Your Repository as `origin`
+### 9. Add Your Repository as `origin`
 
 Return to the GitHub browser tab containing your empty repository. Copy its HTTPS URL.
 
@@ -332,7 +332,7 @@ The official Git remote command uses the same `git remote add NAME URL` structur
 
 ---
 
-# 10. Verify Both Remotes Before Pushing
+### 10. Verify Both Remotes Before Pushing
 
 Run:
 
@@ -367,7 +367,7 @@ git remote get-url upstream
 
 ---
 
-# 11. Push the Initial Repository to GitHub
+### 11. Push the Initial Repository to GitHub
 
 Push the existing `main` branch to your public repository:
 
@@ -392,7 +392,7 @@ GitHub does not accept a normal account password for Git operations over HTTPS. 
 
 Do not send anyone a password, authentication token, two-factor code, or recovery code.
 
-## What `-u` Means
+#### What `-u` Means
 
 The `-u` option makes `origin/main` the default destination for later pushes from your local `main` branch.
 
@@ -405,7 +405,7 @@ The `-u` command does **not** give you permission to push to the instructor repo
 
 ---
 
-# 12. Verify the Repository on GitHub
+### 12. Verify the Repository on GitHub
 
 Return to your repository page in the browser and refresh it.
 
@@ -430,7 +430,7 @@ Open the URL in a private/incognito browser window. If it opens while you are si
 
 ---
 
-# 13. Open the Local Repository in Visual Studio Code
+### 13. Open the Local Repository in Visual Studio Code
 
 From inside the local repository folder, run:
 
@@ -459,7 +459,7 @@ The working tree should be clean.
 
 ---
 
-# 14. Understand the Normal Direction of Work
+### 14. Understand the Normal Direction of Work
 
 Your two remotes have different roles:
 
@@ -481,9 +481,9 @@ Do not push completed notebook work until instructed. You may still make local c
 
 ---
 
-# Troubleshooting
+## Troubleshooting
 
-## `destination path ... already exists and is not an empty directory`
+### `destination path ... already exists and is not an empty directory`
 
 Git will not clone into a nonempty folder with the requested name.
 
@@ -492,7 +492,7 @@ Git will not clone into a nonempty folder with the requested name.
 - Do not overwrite or delete a folder containing work.
 - If you previously attempted this setup, ask the instructor to inspect the existing folder before trying again.
 
-## `fatal: not a git repository`
+### `fatal: not a git repository`
 
 You are not currently inside the cloned repository folder.
 
@@ -511,7 +511,7 @@ cd ~/Projects/3603-data-science-YOURLASTNAME
 
 Replace `YOURLASTNAME` with your own folder name.
 
-## `error: remote origin already exists`
+### `error: remote origin already exists`
 
 Inspect the current configuration:
 
@@ -529,7 +529,7 @@ Then add your repository as `origin`.
 
 Do not repeatedly add or remove remotes without first reading `git remote -v`.
 
-## `error: remote upstream already exists`
+### `error: remote upstream already exists`
 
 The rename may already have succeeded. Run:
 
@@ -539,7 +539,7 @@ git remote -v
 
 If `upstream` points to the instructor repository, continue with the next unfinished step.
 
-## `Repository not found`
+### `Repository not found`
 
 Check the student URL:
 
@@ -554,7 +554,7 @@ Confirm:
 - the repository exists under your account; and
 - you authenticated using the account that owns it.
 
-## `Permission denied` or `403`
+### `Permission denied` or `403`
 
 First inspect the destination:
 
@@ -566,7 +566,7 @@ If it points to `rugbyprof`, the remotes are configured incorrectly. Your `origi
 
 If the URL is correct, sign out and back into GitHub through VS Code, then retry the push.
 
-## Push Is Rejected Because the Remote Contains Work
+### Push Is Rejected Because the Remote Contains Work
 
 This commonly occurs when the GitHub repository was initialized with a README, `.gitignore`, or license.
 
@@ -574,7 +574,7 @@ Do not force-push and do not use commands copied from an unrelated troubleshooti
 
 If the GitHub repository contains only automatically generated starter files and no student work, ask the instructor to help you recreate it as an empty repository. If it contains actual work, it must be examined before anything is replaced.
 
-## `src refspec main does not match any`
+### `src refspec main does not match any`
 
 Confirm that you are in the cloned course repository and check the current branch:
 
@@ -585,7 +585,7 @@ git branch --show-current
 
 The instructor repository should place you on `main`. If it does not, show the instructor the output rather than guessing at a branch name.
 
-## Authentication Never Opens a Browser
+### Authentication Never Opens a Browser
 
 In VS Code:
 
@@ -601,7 +601,7 @@ In VS Code:
 
 Do not enter your normal GitHub password into a Git password prompt.
 
-## `Could not resolve host: github.com`
+### `Could not resolve host: github.com`
 
 This is normally a network or DNS problem rather than a Git configuration problem.
 
@@ -612,7 +612,7 @@ This is normally a network or DNS problem rather than a Git configuration proble
 
 ---
 
-# Final Verification Commands
+## Final Verification Commands
 
 Run these commands inside the repository:
 
@@ -636,7 +636,7 @@ Your results should show:
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
 - [ ] My repository name follows `3603-data-science-[yourlastname]`.
 - [ ] My GitHub repository is public.
