@@ -6,7 +6,7 @@ Course materials for MSU Texas CS/DS 3603. Beginner-friendly, project-focused Py
 
 New to the course? Work through **[`_StartHere/`](_StartHere/)** before touching an assignment — it's an 8-part guide covering everything from creating a GitHub account to submitting finished notebooks:
 
-> You will notice some OVERLAP between some of the Parts, if you've done it already, just skip it (e.g. git config --global blah blah blah)
+> **You will notice some OVERLAP between some of the Parts, if you've done it already, just skip it (e.g. git config --global blah blah blah)**
 
 | Part                       | Covers                                                               |
 | -------------------------- | -------------------------------------------------------------------- |
