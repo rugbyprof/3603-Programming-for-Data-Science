@@ -37,17 +37,17 @@ This course runs entirely on a **local VS Code + venv + git** setup — not Cola
 
 ## 02 - Assignments
 
-Each module folder follows the same layout: numbered notebooks, a `README.md`, `glossary.md`, `mini_quiz.md`, and `worksheet.md`. Most notebooks end with an optional 🔥 Challenge section for extra practice.
+Each module folder follows the same layout: numbered notebooks, a `README.md`, `glossary.md`, `quiz.md`, and `worksheet.md` (plus any data files a module needs). Most notebooks end with an optional 🔥 Challenge section for extra practice.
 
 | Module                                                                                   | Topic                                                                                          |
 | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [01-Working_with_Data_Basic](02-Assignments/01-Working_with_Data_Basic/)                 | Lists, tuples, and dictionaries                                                                |
-| [02-Scalar_Types_and_Control_Flow](02-Assignments/02-Scalar_Types_and_Control_Flow/)     | Scalar types, arithmetic, `if`/`elif`/`else`                                                   |
-| [03-Strings_and_Text](02-Assignments/03-Strings_and_Text/)                               | Strings as a sequence type, string methods, f-strings                                          |
+| [01-Scalar_Types_and_Control_Flow](02-Assignments/01-Scalar_Types_and_Control_Flow/)     | Scalar types, arithmetic, type casting, `if`/`elif`/`else`, logical operators                  |
+| [02-Strings_and_Text](02-Assignments/02-Strings_and_Text/)                               | Strings as a sequence type, string methods, f-strings                                          |
+| [03-Python_Containers](02-Assignments/03-Python_Containers/)                             | Lists, tuples, and dictionaries — including 2D lists, lists of dictionaries, and JSON/GeoJSON  |
 | [04-Functions](02-Assignments/04-Functions/)                                             | `def`, `return`, `*args`/`**kwargs`, type-based behavior                                       |
 | [05-Loops_and_Iteration](02-Assignments/05-Loops_and_Iteration/)                         | `for`/`while` loops, `enumerate()`/`zip()`, reading files with `with`                          |
 | [06-Foundations](02-Assignments/06-Foundations/)                                         | Jupyter/IPython tooling — magics, Markdown, file I/O, plotting basics, getting help, profiling |
-| [07-Working_with_Data_Adv](02-Assignments/07-Working_with_Data_Adv/)                     | Pandas `Series`/`DataFrame`, loading and exploring real datasets                               |
+| [07-Working_with_Data_Adv](02-Assignments/07-Working_with_Data_Adv/)                     | Sets, then Pandas `Series`/`DataFrame` — loading, cleaning, indexing, and exploring real datasets |
 | [08-Describing_and_Visualizing_Data](02-Assignments/08-Describing_and_Visualizing_Data/) | Summary statistics and visualization with Matplotlib/Seaborn                                   |
 
 Modules 07 and 08 work entirely from local data files (in-folder or in [`data/`](data/)) — no network access required.
