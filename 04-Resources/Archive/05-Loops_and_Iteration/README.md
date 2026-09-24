@@ -1,5 +1,7 @@
 # 📂 Module 05: Loops and Iteration
 
+> **Archived.** Replaced by [04-More_Functions_and_Loops](../../../02-Assignments/04-More_Functions_and_Loops/README.md). Kept here as optional extra reading.
+
 This module explores looping in Python using `for` and `while` loops, plus `enumerate()` and `zip()` for the situations a plain loop doesn't handle cleanly, and the `with` construct for safely reading files.
 
 ---

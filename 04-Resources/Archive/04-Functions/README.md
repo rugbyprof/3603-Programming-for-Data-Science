@@ -4,6 +4,8 @@ Functions are how you package up logic to reuse it, instead of copying and pasti
 
 (This module does **not** cover classes/OOP — just functions.)
 
+> **Archived.** Replaced by [03b-Containers_to_Functions](../../../02-Assignments/03b-Containers_to_Functions/README.md) and [04-More_Functions_and_Loops](../../../02-Assignments/04-More_Functions_and_Loops/README.md). Kept here as optional extra reading.
+
 ---
 
 ## 🔗 Assignments

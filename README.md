@@ -34,6 +34,7 @@ This course runs entirely on a **local VS Code + venv + git** setup — not Cola
 | 04-Resources    |           |                                                      |
 |                 | Books/    | Source textbooks (VanderPlas), for reference/reading |
 |                 | data/     | Shared datasets used across notebooks                |
+|                 | Archive/  | Retired modules (old `04-Functions`, `05-Loops_and_Iteration`) |
 
 ## 02 - Assignments
 
@@ -44,8 +45,8 @@ Each module folder follows the same layout: numbered notebooks, a `README.md`, `
 | [01-Scalar_Types_and_Control_Flow](02-Assignments/01-Scalar_Types_and_Control_Flow/)     | Scalar types, arithmetic, type casting, `if`/`elif`/`else`, logical operators                  |
 | [02-Strings_and_Text](02-Assignments/02-Strings_and_Text/)                               | Strings as a sequence type, string methods, f-strings                                          |
 | [03-Python_Containers](02-Assignments/03-Python_Containers/)                             | Lists, tuples, and dictionaries — including 2D lists, lists of dictionaries, and JSON/GeoJSON  |
-| [04-Functions](02-Assignments/04-Functions/)                                             | `def`, `return`, `*args`/`**kwargs`, type-based behavior                                       |
-| [05-Loops_and_Iteration](02-Assignments/05-Loops_and_Iteration/)                         | `for`/`while` loops, `enumerate()`/`zip()`, reading files with `with`                          |
+| [03b-Containers_to_Functions](02-Assignments/03b-Containers_to_Functions/)             | Containers again, taught through problems, then why functions exist, `print` vs `return`, and pipelines |
+| [04-More_Functions_and_Loops](02-Assignments/04-More_Functions_and_Loops/)             | Default and keyword arguments, scope, `while`/`break`/`continue`, reading files with `with`, `try`/`except` |
 | [06-Foundations](02-Assignments/06-Foundations/)                                         | Jupyter/IPython tooling — magics, Markdown, file I/O, plotting basics, getting help, profiling |
 | [07-Working_with_Data_Adv](02-Assignments/07-Working_with_Data_Adv/)                     | Sets, then Pandas `Series`/`DataFrame` — loading, cleaning, indexing, and exploring real datasets |
 | [08-Describing_and_Visualizing_Data](02-Assignments/08-Describing_and_Visualizing_Data/) | Summary statistics and visualization with Matplotlib/Seaborn                                   |
