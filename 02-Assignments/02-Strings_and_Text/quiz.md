@@ -1,4 +1,4 @@
-# 📝 Quiz: 03 - Strings and Text
+# 📝 Quiz: 02 - Strings and Text
 
 20 questions covering string basics, string methods, formatted strings (f-strings), and the "going further" topics from the Challenge sections. Mix of multiple choice, true/false, code-tracing, and short answer.
 

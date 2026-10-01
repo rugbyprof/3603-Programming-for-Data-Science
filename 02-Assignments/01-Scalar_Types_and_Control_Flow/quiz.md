@@ -1,4 +1,4 @@
-# 📝 Quiz: 02 - Scalar Types and Control Flow
+# 📝 Quiz: 01 - Scalar Types and Control Flow
 
 22 questions covering scalar types, arithmetic/casting, control flow, and the "going further" topics from the Challenge sections. Mix of multiple choice, true/false, code-tracing, and short answer.
 
