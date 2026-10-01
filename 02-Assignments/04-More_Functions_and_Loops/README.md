@@ -39,6 +39,6 @@ Each notebook ends with an optional **🔥 Challenge** section. Skipping it won'
 - [worksheet.md](worksheet.md) — paper tracing and reflection prompts
 
 **Before this:** [03b-Containers_to_Functions](../03b-Containers_to_Functions/README.md)  
-**After this:** [06-Foundations](../06-Foundations/README.md)
+**After this:** [05-Foundations](../05-Foundations/README.md)
 
 > The previous `04-Functions` and `05-Loops_and_Iteration` modules are archived in [04-Resources/Archive](../../04-Resources/Archive/). `*args` / `**kwargs`, type-based behavior, `enumerate()` / `zip()`, and nested loops are all still there if you want extra reading.

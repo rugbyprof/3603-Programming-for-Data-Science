@@ -1,4 +1,4 @@
-# 📂 Module 02: Scalar Types and Control Flow
+# 📂 Module 01: Scalar Types and Control Flow
 
 This module combines a review of scalar data types (`int`, `float`, `str`, `bool`) and arithmetic with an introduction to Python control flow using `if`, `elif`, and `else`.
 
@@ -30,6 +30,8 @@ Each notebook ends with an optional **🔥 Challenge** section — a harder vari
 ## 📚 Also in this module
 
 - [glossary.md](glossary.md) — key terms
-- [quiz.md](quiz.md) — 20-question self-check with an answer key
+- [quiz.md](quiz.md) — 22-question self-check with an answer key
 - [worksheet.md](worksheet.md) — practice problems and reflection prompts
 - [scalar_types_and_control_flow.csv](scalar_types_and_control_flow.csv) — D2L-importable question bank for graded quizzes (separate from `quiz.md`, which is for self-study)
+
+**After this:** [02-Strings_and_Text](../02-Strings_and_Text/README.md)

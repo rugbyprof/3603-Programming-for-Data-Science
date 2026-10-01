@@ -1,4 +1,4 @@
-# 📂 Module 03: Strings and Text
+# 📂 Module 02: Strings and Text
 
 Strings get their own dedicated module here because there's more to them than the brief mentions in earlier modules let on. This module treats strings as a sequence type (like Lists and Tuples), covers the large set of built-in string methods, and gives f-strings the depth they deserve.
 
@@ -32,3 +32,6 @@ Each notebook ends with an optional **🔥 Challenge** section — a harder vari
 - [glossary.md](glossary.md) — key terms
 - [quiz.md](quiz.md) — 20-question self-check with an answer key
 - [worksheet.md](worksheet.md) — practice problems and reflection prompts
+
+**Before this:** [01-Scalar_Types_and_Control_Flow](../01-Scalar_Types_and_Control_Flow/README.md)  
+**After this:** [03-Python_Containers](../03-Python_Containers/README.md)
