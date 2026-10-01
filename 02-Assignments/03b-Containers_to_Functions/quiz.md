@@ -147,32 +147,3 @@ numbers = [10, -3, 20, 30]
 clean = remove_negatives(numbers)
 print(above(clean, average(clean)))
 ```
-
----
-
-## 🔑 Answer Key
-
-1. Any two of: it scales to any number of items; you can loop over it; adding or removing a score doesn't mean changing the code; one name for the whole group.
-2. `74 60 5`. After the append and remove, the list is `[87, 74, 88, 95, 60]`.
-3. **C** — dictionary. You look a GPA up by ID.
-4. **B** — tuple. It's one color with three fixed parts (red, green, blue).
-5. A record whose parts have fixed meanings by position, such as `(latitude, longitude)`. It's one thing with several parts.
-6. `{'Database'}`
-7. `'B'`. `students[-1]` is `{"name": "Bob", ...}`, `["name"]` is `"Bob"`, and `[0]` is `"B"`.
-8. Accumulate adds **the item** (`total += item`). Count adds **1** (`count += 1`) when the item passes a test.
-9. `[-2, -5]`
-10. **C** — Filter.
-11. If every number is negative, nothing is ever greater than `0`, so the function wrongly returns `0`. Starting at the first item means `best` is always a real value from the list.
-12. Nothing. `def` only *defines* the function, and nothing runs until it's called.
-13. Parameters: `width`, `height`. Arguments: `3`, `5`.
-14. `25`. `square(3)` is 9, `square(square(2))` is `square(4)`, which is 16, and 9 + 16 = 25.
-15. `10` and then `None`. `double` *prints* 10 but doesn't return anything, so `result` is `None`.
-16. **False.** `print()` shows a value to the human; `return` gives it back to the program.
-17. `big`. `return` ends the function, so the second `return` never runs.
-18. Any three of: naming/readability, fixing a bug in one place, testing pieces separately, hiding details, building bigger things out of smaller functions.
-19. `return result` is indented inside the loop, so the function returns after the first item. Move it out one level.
-20. `[5, 1]`. `values` and `a` are the same list, so appending inside the function changes `a`.
-21. `None [1, 2, 3]`. `.sort()` changes the list in place and returns `None`.
-22. **D** — dictionary.
-23. IN: a list of numbers and a number. OUT: an int. DOES: returns how many numbers are greater than `threshold`.
-24. `[30]`. `clean` is `[10, 20, 30]` and the average is `20.0`. `above` keeps numbers *strictly* greater than the cutoff, so `20` is left out. (This is a boundary case, exactly the kind the Test Designer section warns about.)

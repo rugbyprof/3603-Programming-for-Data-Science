@@ -110,24 +110,3 @@ except FileNotFoundError:
     print("no file")
 print("done")
 ```
-
----
-
-## 🔑 Answer Key
-
-1. `Hello, Ada!` then `Hi, Ada!`
-2. **False.** Parameters with defaults must come after parameters without them. This is a `SyntaxError`.
-3. `Ben — Art`. Keyword arguments are matched by name, so their order doesn't matter.
-4. It's a **keyword argument**. `sorted` has a `reverse` parameter with a **default value** (`False`), which you're overriding.
-5. `(1, 8)`. `return a, b` returns one tuple.
-6. `100 5`. The `x` inside `f` is local, so the global `x` stays `5`.
-7. It makes the function reusable with any data, easy to test, and it can't break when some unrelated global variable changes. (This was the bug in Patient #4 from Module 03b.)
-8. **Start** (set up the variable), **condition** (checked before each pass), and **update** (must eventually make the condition `False`).
-9. `32`. The values go 1 → 2 → 4 → 8 → 16 → 32, and the loop stops once `n < 20` is `False`.
-10. **C.** You don't know how many rolls it will take, only when to stop. The others each go through a collection, which is a job for `for`.
-11. `80`. At `55` the loop hits `break` and stops completely.
-12. `80` then `90`. `continue` skips `55` and `40` but keeps looping.
-13. The file is closed automatically when the block ends, even if an error happens inside it.
-14. `['Bob', '84']`. Both are strings. You'd still need `int(...)` for the grade.
-15. Each line already ends with a newline character (`"\n"`), and `print()` adds another one. `.strip()` removes the first.
-16. `no file` then `done`.

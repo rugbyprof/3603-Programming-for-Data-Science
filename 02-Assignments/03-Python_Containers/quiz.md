@@ -155,37 +155,4 @@ A) `0`  B) `''`  C) `None`  D) `False`
 
 **30.** (Short Answer) In a GeoJSON `Point`, the coordinates are written as `[-98.5, 33.9]`. Which number is the latitude?
 
----
 
-## ✅ Answer Key
-
-1. **A** — `[]` (also `list()`, but that wasn't an option here). `{}` is an empty dict, `()` is an empty tuple, `set()` is an empty set.
-2. `[1, 2, 3, 4]`
-3. `.remove(value)` deletes the first item that *matches a value*; `.pop(index)` deletes and *returns* the item at a given position (default: the last one).
-4. `['b', 'c', 'd']` — slicing is start-inclusive, stop-exclusive.
-5. **True**.
-6. Loop over the original list, check the condition with `if`, and `.append()` matching items to a new (initially empty) list. (A list comprehension does the same thing in one line.)
-7. **B** — `(5,)`. Without the trailing comma, `(5)` is just the integer `5` in parentheses.
-8. **False** — tuples are immutable.
-9. `7 3`
-10. Tuples are immutable, which makes them *hashable*. Dictionary keys must be hashable, and lists (being mutable) are not.
-11. `[90, 80, 70]` — `*rest` collects everything left over as a list.
-12. A tuple.
-13. **B** — `.get(key)`. `dict[key]` raises `KeyError` if missing; `.pop(key)` also raises `KeyError` if missing (and removes the item); `.items()` doesn't take a key at all.
-14. `a 1` and `b 2` (in insertion order, since Python 3.7+ dicts preserve it).
-15. (1) Loop with `zip(names, scores)` and assign each pair into a new dict. (2) `dict(zip(names, scores))` does it in one line.
-16. **False** — keys are unique; assigning to an existing key overwrites its value.
-17. `90`
-18. `squares = [n ** 2 for n in range(5)]`
-19. An iterable of tuples, pairing up corresponding items: `('Ana', 90)`, `('Ben', 85)`, etc.
-20. You can access fields by name (`p.x`) instead of only by position (`p[0]`), which makes the code more self-documenting.
-21. `[1, 2, [3, 4]]` — `.append()` adds `b` as a single element, so the last item is the whole list.
-22. **C** — `a.extend(b)`. `a + b` builds a new list without changing `a`; `a.append(b)` nests `b` as one element; `a.append(*b)` is a `TypeError` (append takes one argument).
-23. `4` — `grid[1]` is `[4, 5, 6]`, and `[0]` of that is `4`.
-24. `['c', 'd']` — `pop(1)` removes `'b'` (leaving `['a', 'c', 'd']`), then `del items[0]` removes `'a'`.
-25. Any one of: you need each item's index (e.g. to print a numbered list), you're modifying items in place (`mylist[i] = ...`), or you need to compare `mylist[i]` with `mylist[i+1]`.
-26. `Math`
-27. `roster[2]['major'] = 'Anthropology'` (any new major is fine) — index the list, then assign to the `'major'` key.
-28. `Data Science` — `by_row[0]` and `roster[0]` are the *same* dictionary object, so the change is visible through both.
-29. **C** — `None`.
-30. `33.9` — GeoJSON coordinates are `[longitude, latitude]`, so the second number is the latitude.

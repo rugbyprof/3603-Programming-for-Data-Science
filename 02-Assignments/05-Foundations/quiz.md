@@ -1,4 +1,4 @@
-# 📝 Quiz: 06 - Foundations
+# 📝 Quiz: 05 - Foundations
 
 45 questions covering all 8 Foundations notebooks, in order: magic commands, Jupyter workflow, getting help, Markdown, files and paths, data I/O, plotting with NumPy, and timing. Mix of multiple choice, true/false, code-tracing, and short answer.
 

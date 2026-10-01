@@ -112,29 +112,3 @@ print(tier, perk)
 
 **22.** (Short Answer, C++ Comparison) In C++, `0 <= score <= 100` compiles without any error, but doesn't check what you'd think. If `score = 150`, what does this condition actually evaluate to, and why?
 
----
-
-## ✅ Answer Key
-
-1. **A** — `bool`.
-2. `<class 'int'>`
-3. `str` for name, `int` for age, `bool` for whether they passed.
-4. `22` — `int('21')` converts the string to `21`, then `+ 1` makes `22`.
-5. **True**.
-6. `3` — floor division drops the remainder (`17 / 5 = 3.4`, floored to `3`).
-7. `2` — the remainder of `17 / 5`.
-8. **B** — `**`.
-9. `'55'` — with two strings, `+` concatenates them instead of adding numbers.
-10. `True`.
-11. It flips the value: `not True` is `False`, and `not False` is `True`.
-12. `==`
-13. **C** — `elif`.
-14. `True` — chained comparisons check both sides at once.
-15. **True**.
-16. `or` requires at least one condition to be True.
-17. `status = 'adult' if age >= 18 else 'minor'`
-18. Floats are stored in binary, so most decimal fractions (like `0.1` or `0.2`) can't be represented exactly — e.g. `0.1 + 0.2 == 0.3` is `False` in Python, even though it looks like it should be `True`.
-19. `match` and `case`.
-20. `True`.
-21. `Standard No perks yet` — `balance` is only `500`, so the `else` branch runs, setting both `tier` and `perk` before the `print()` after the block.
-22. It always evaluates to `true`, regardless of `score`. C++ evaluates left to right: `(0 <= score)` produces a `bool`, which gets silently converted to `0` or `1` (an `int`). That `0`/`1` is then compared with `<= 100`, which is always true. The condition never actually checks the upper bound — the correct C++ requires `0 <= score && score <= 100`.

@@ -97,28 +97,3 @@ print(f'{x * 2}')
 x = 7
 print(f'{x=}')
 ```
-
----
-
-## ✅ Answer Key
-
-1. **C** — triple-quoted strings.
-2. `n`
-3. `nohtyP`
-4. **True** — Python sees the apostrophe as closing the string early, leaving invalid syntax after it.
-5. Strings are immutable — once created, individual characters can't be reassigned. You have to build a new string instead (e.g. `'J' + word[1:]`).
-6. `Hi`, then a tab, then `There` — the `\t` inserts a tab character, not the literal text `\t`.
-7. `Ada` — leading and trailing spaces are removed.
-8. `['the', 'quick', 'brown', 'fox']`
-9. `.find()` returns the *index* where the substring starts (or `-1` if missing); `in` just gives you `True`/`False`.
-10. **A** — `.isdigit()`.
-11. `True`.
-12. `['a', 'b', 'c']`
-13. `9.50`
-14. `1,234,567`
-15. It marks the string as an f-string, meaning anything inside `{}` is evaluated as a Python expression and inserted into the string.
-16. **B** — `:>10`.
-17. `10`
-18. `.format()` and `%`-style formatting (the `%` operator).
-19. It disables escape-character processing, so backslashes are treated as literal characters instead of the start of an escape sequence — e.g. `r'C:\Users\name'` doesn't need `\\` for every backslash, and you don't risk accidentally typing a real escape sequence like `\n`.
-20. `x=7` — the `=` debug spec prints both the expression text and its value.
