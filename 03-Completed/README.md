@@ -2,7 +2,7 @@
 
 This folder is where you **turn in** each module when you finish it. Your `03-Completed` folder must end up as an exact **mirror** of `02-Assignments`: same folder names, same file names, same layout.
 
-> ⚠️ **Why this matters:** your work is checked by a script, not by a person clicking around. The script looks for each module folder and each file **by its exact name**. If a folder or file is renamed, moved, or missing, the script can't find it, and that work counts as **not turned in**.
+> ⚠️ **Why this matters:** your work is checked by a script, not by a person clicking around. The script looks for each module folder and each file **by its name**. Capitalization doesn't matter, but every other character does. If a folder or file is renamed, moved, or missing, the script can't find it, and that work counts as **not turned in**.
 
 ---
 
@@ -22,7 +22,7 @@ Never edit the original files in `02-Assignments/`. Leaving them unchanged lets 
 
 ## 🗂️ What `03-Completed` Should Look Like
 
-Here's the target, through Module 05. Folder and file names must match **exactly**, including capital letters, underscores, and the number prefixes.
+Here's the target, through Module 05. Folder and file names must match: same spelling, underscores, dashes, and number prefixes. (Capitalization is forgiven, but there's no reason to change it.)
 
 ```text
 03-Completed/
@@ -126,32 +126,33 @@ Then open one notebook from its new location and Restart & Run All again, to mak
 
 ### 5. Check your submission
 
-From the top of your repository, run this in the VS Code terminal (`python check_completed.py` after saving it as a file, or paste it into a notebook cell):
+The repository includes a checker, [`check_completed.py`](../check_completed.py), in its top folder. Run it in the VS Code terminal:
 
-```python
-from pathlib import Path
-
-for module in sorted(p for p in Path('03-Completed').iterdir() if p.is_dir()):
-    original = Path('02-Assignments') / module.name
-    if not original.is_dir():
-        print(f'❌ {module.name}: no folder with this name in 02-Assignments (check the spelling)')
-        continue
-    required = sorted(p.name for p in original.iterdir()
-                      if p.suffix == '.ipynb' or p.name in ('quiz.md', 'worksheet.md'))
-    missing = [name for name in required if not (module / name).exists()]
-    extra = sorted(p.name for p in module.iterdir()
-                   if p.suffix == '.ipynb' and not (original / p.name).exists())
-    if missing or extra:
-        print(f'❌ {module.name}')
-        for name in missing: print(f'     missing:          {name}')
-        for name in extra:   print(f'     unexpected name:  {name}')
-    else:
-        print(f'✅ {module.name}: all {len(required)} required files present')
+```bash
+python check_completed.py                  # check every module in 03-Completed
+python check_completed.py 05-Foundations   # check just one module
+python check_completed.py 05               # the start of a name is enough
 ```
 
-Every module you've turned in should show ✅. A ❌ tells you exactly which file is missing or misnamed.
+For each module, it prints a table with a ✅ or ❌ for **every** required file:
 
-> If you paste it into a notebook cell, the notebook must be open from the **top** of your repository, or the paths won't match. Running it as a `.py` file from the repository's top folder is simplest.
+```text
+📂 03-Completed/05-Foundations
+       File                                     Result
+       ---------------------------------------  ----------------------------------------
+   ✅  01-magic_commands.ipynb                  found
+   ✅  02-jupyter_shortcuts_and_workflow.ipynb  found
+   …
+   ❌  quiz.md                                  missing
+   ❌  06-OutputFiles/                          missing (run the notebook that creates it)
+   ❌  01-magic_commands copy.ipynb             unexpected name: rename it to match the original
+   12 of 20 checks passed
+```
+
+Fix every ❌ and run it again, until every module you've turned in shows only ✅. It also catches:
+- `… copy.ipynb` duplicates and other unexpected notebook names.
+- empty `NN-OutputFiles` folders.
+- a module folder nested inside itself.
 
 ### 6. Commit and push
 
@@ -171,9 +172,9 @@ Then open your repository on GitHub and confirm the module folder is under `03-C
 
 | Don't...                                                                                     | Because...                                                                                                                    |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Rename a file, even a little (`01-Lists_done.ipynb`, `01-lists.ipynb`, `01-Lists (1).ipynb`) | The checker looks for the **exact** original name, including capital letters                                                  |
+| Rename a file, even a little (`01-Lists_done.ipynb`, `01-Lists (1).ipynb`, `01_Lists.ipynb`)  | The checker looks for the original name. Extra words, `(1)`, or a `_` in place of a `-` make it a different file              |
 | Leave a `… copy.ipynb` duplicate                                                             | VS Code names a pasted file `… copy` when the original is in the same folder. Make sure the final file has the original name. |
-| Rename the module folder (`05-foundations`, `05-Foundations-Smith`, `Module5`)               | The folder name must match `02-Assignments` exactly                                                                           |
+| Rename the module folder (`05-Foundations-Smith`, `05_Foundations`, `Module5`)               | The folder name must match the one in `02-Assignments`                                                                        |
 | Nest folders (`03-Completed/05-Foundations/05-Foundations/…`)                                | Happens when you drag a folder *into* a folder that already has its name. There should be exactly one level.                  |
 | Move notebooks out of their module folder, or put several modules in one folder              | Each notebook must sit in its own module's folder                                                                             |
 | Turn in only an export (`.html`, `.pdf`, `.py`) or a `.zip`                                  | The checker reads the `.ipynb` files themselves                                                                               |
@@ -185,7 +186,7 @@ Then open your repository on GitHub and confirm the module folder is under `03-C
 
 ## ✅ Turn-In Checklist (per module)
 
-- [ ] The module folder is in `03-Completed/`, with **exactly** the same name as in `02-Assignments/`.
+- [ ] The module folder is in `03-Completed/`, with the same name as in `02-Assignments/`.
 - [ ] Every notebook is there, with its **original name**, and nothing renamed or duplicated.
 - [ ] Every notebook was **Restart & Run All**'d without errors, and saved with its outputs.
 - [ ] `quiz.md` and `worksheet.md` are there, with my answers written in.
