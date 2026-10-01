@@ -13,7 +13,7 @@ An ordered collection that can't be changed, used for *one thing with several fi
 A collection of key → value pairs, used to *look something up by name*. `{"Bob": 84}`
 
 **Set**  
-An unordered collection with no duplicates, used when you only care *whether* something is there. `{"OOP", "Database"}`
+An unordered collection with no duplicates, used when you only care *whether* something is there. `{"OOP", "Database"}`, or `set()` for an empty one (`{}` is an empty dictionary). Change it with `.add()` and `.discard()`. Compare two sets with `|` (either), `&` (both), `-` (only the first), and `^` (exactly one).
 
 **Index**  
 A position in a list or tuple. The first index is `0`, and `-1` is the last item.
