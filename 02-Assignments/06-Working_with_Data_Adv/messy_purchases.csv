@@ -1,0 +1,270 @@
+Purchase ID,buyer_id,Product Name, Department,State,Purchase Date, Unit Price ,QTY,Supplier Note
+50140,28,Throw Blanket,Home,MN,03/09/2026,$29.99,3,clearance
+50187,58,Backpack,Travel,IL,06/17/2026,$39.99,2,seasonal
+50144,55,Notebook, Office,WI,"Jun 17, 2026",4.99,3,seasonal
+50174,49,Backpack,Travel,IL,2026-06-14,39.99,2,standard
+50012,60,Notebook, Office,il,2026-02-28,$4.99,1,clearance
+50059,53,Pen Set,Office,MN,2026-06-17, 7.49 ,,clearance
+50158,30,Stapler,Office,IL,01/30/2026,$12.99,1,standard
+50095,46,Office Chair, Office,IL,2026-05-21,149.99,2,standard
+50147,21,Wall Clock,Home,Illinois,2026-05-15,18.75,1,standard
+50029,14,Backpack,Travel,IL,2026-02-26,39.99,5,backorder
+50019,43,Throw Blanket,Home,IL,06/07/2026,$29.99,1,standard
+50152,19,Pen Set,Office,IL ,"Apr 23, 2026",$7.49,1,backorder
+50094,20,Wall Clock,Home,IL,2026-06-11,18.75,1,standard
+50071,10,Throw Blanket,home,Minnesota,04/05/2026,$29.99,1,seasonal
+50186,32,Water Bottle,Travel,WI,2026-01-16,12.50,3,clearance
+50141,16,USB Hub ,electronics,wi,"Jan 17, 2026",$21.50,4,standard
+50229,43,Standing Desk,Office,WI,2026-06-29,"1,249.99",2,clearance
+50131,52,Throw Blanket,Home,IN,2026-01-14,29.99,5,standard
+50235,1,Backpack,Travel,IN ,2026-03-17,$39.99,1,standard
+50133,3,Pen Set,Office,IL,2026-01-10,$7.49,4,seasonal
+50030,55,Backpack,Travel,wi,2026-06-06,39.99,4,clearance
+50037,25,Notebook,Office,IN,2026-06-15,$4.99,1,clearance
+50056,13,Stapler,Office,IN,04/01/2026,$12.99,2,standard
+50154,31,Pen Set,Office,IL,"Mar 31, 2026",7.49,1,standard
+50111,18,Throw Blanket,Home,IL,04/15/2026, $29.99 ,2,clearance
+50136,16,Desk Lamp,home,Unknown,"Jan 13, 2026",24.99,2,seasonal
+50026,55,Monitor,ELECTRONICS,WI,01/09/2026,$189.99,2,backorder
+50008,45,Notebook,Office,Wisconsin,06/20/2026,$4.99,1,seasonal
+50107,42,USB Hub,Electronics,IN,04/29/2026,$21.50,5,standard
+50188,21,Desk Lamp,Home,IL,"Mar 21, 2026",24.99,4,clearance
+50016,42,Luggage Tag ,Travel,il,"Apr 20, 2026",$6.25,4,clearance
+50172,50,Luggage Tag,Travel,IA,2026-05-02,6.25,2,standard
+50102,50,Desk Lamp,Home,WI,2026-05-18,24.99,1,standard
+50248,59,Notebook, Office,WI,05/13/2026,4.99,1,standard
+50091,25,Water Bottle, Travel,MN,2026-03-17,12.50,4,clearance
+50259,33,Pen Set,Office,MN,2026-04-21, $7.49 ,2,standard
+50233,59,Stapler, Office,il,"Apr 2, 2026",$12.99,1,clearance
+50001,23,Pen Set,Office,IL,2026-06-16, $7.49 ,4,standard
+50150,19,Pen Set,Office,il,2026-05-24,7.49,1,standard
+50014,52,Throw Blanket,Home,IL,2026-03-11,29.99,5,clearance
+50157,24,Notebook,Office,WI,2026-04-05, 4.99 ,1,backorder
+50149,5,Throw Blanket ,HOME,WI,2026-05-14,29.99,5,seasonal
+50132,23,Desk Lamp,Home,WI,"Feb 28, 2026",$24.99,1,standard
+50162,8,Headphones,Electronics,Wisconsin,04/21/2026,$79.99,2,backorder
+50163,27,Headphones,Electronics,WI,2026-01-17,$79.99,4,standard
+50020,27,Pen Set,office,WI,01/02/2026,7.49,1,standard
+50003,26,Water Bottle,Travel,IA,N/A,12.50,4,clearance
+50049,52,Pen Set,Office,IA,2026-01-15,$7.49,1,backorder
+50110,17,Notebook,Office,Wisconsin,04/26/2026,N/A,1,clearance
+50249,39,Stapler,Office,MN,2026-04-15, $12.99 ,4,standard
+50021,15,Luggage Tag,Travel,N/A,03/07/2026,6.25,1,standard
+50041,27,Luggage Tag,Travel,IL,2026-03-19,6.25,4,standard
+50166,56,Luggage Tag,Travel,Wisconsin,02/06/2026,6.25,2,backorder
+50189,60,USB Hub,ELECTRONICS,WI,2026-05-14,21.50,1,standard
+50007,20,USB Hub,Electronics,IL,04/15/2026,21.50,3,clearance
+50093,40,Notebook,office,IL,06/27/2026,4.99,4,standard
+50221,12,Luggage Tag,Travel,MN,"Apr 30, 2026",$6.25,2,standard
+50073,38,Notebook,Office,WI,02/07/2026,$4.99,4,seasonal
+50081,10,Pen Set,office,Indiana,2026-03-29,-1,1,clearance
+50224,32,Pen Set,office,IN,2026-02-26,$7.49,1,seasonal
+50253,58,notebook,Travel,Indiana,02/17/2026,39.99,1,seasonal
+50209,42,Backpack,Travel,Illinois,,$39.99,1,standard
+50017,1,Water Bottle,TRAVEL,il,2026-02-11,$12.50,2,backorder
+50108,41,NOTEBOOK,Home,N/A,2026-02-21,$24.99,3,standard
+50092,34,Backpack,Travel,WI,2026-05-29,$39.99,1,backorder
+50182,35,Desk Lamp,Home,WI,02/14/2026,$24.99,2,standard
+50184,18,Pen Set,office,WI,05/04/2026,7.49,,standard
+50146,28,Pen Set,Office,IL,2026-02-06,7.49,4,backorder
+50134,38,Notebook,Office,IL,04/27/2026,$4.99,1,standard
+50214,31,Office Chair,Office,IN,2026-05-13,149.99,1,backorder
+50260,14,Stapler , Office,WI,2026-02-06,N/A,1,standard
+50010,58,Backpack,Travel,IA,2026-06-20,$39.99,5,standard
+50155,14,USB Hub,Electronics,Illinois,"Jan 25, 2026",$21.50,5,clearance
+50227,43,Stapler,Office,MN,05/06/2026,12.99,3,seasonal
+50256,49,Pen Set,Office,IL,2026-02-07,$7.49,1,standard
+50208,43,Luggage Tag,Travel,wi,"Mar 26, 2026",$6.25,1,standard
+50085,59,Notebook,Office,WI,2026-05-18,$4.99,2,standard
+50099,11,Wall Clock,Home,IL ,2026-02-14,18.75,1,clearance
+50127,39,Backpack,Travel,IA,2026-04-15,$39.99,2,seasonal
+50046,35,Notebook,Office,MN,04/06/2026,4.99,1,standard
+50120,4,Water Bottle, Travel,IN ,2026-05-23,$12.50,1,seasonal
+50154,31,Pen Set,Office,IL,"Mar 31, 2026",7.49,1,standard
+50122,54,Backpack,Travel,Illinois,2026-05-26,39.99,3,backorder
+50096,19,Notebook,office,MN,"Jun 15, 2026",$4.99,5,clearance
+50125,27,Office Chair,Office,WI,2026-02-07,149.99,1,clearance
+50035,48,Pen Set,Office,N/A,02/08/2026,$7.49,1,standard
+50106,21,Luggage Tag,Unknown,IA,"May 28, 2026",$6.25,2,standard
+50173,29,Backpack,Travel,IL,2026-02-03,$39.99,2,clearance
+50222,10,Desk Lamp,Home,IL ,03/19/2026,24.99,2,standard
+50053,43,Pen Set , Office,IL,03/07/2026,$7.49,2,standard
+50227,43,Stapler,Office,MN,05/06/2026,12.99,2,seasonal
+50128,38,Monitor ,Electronics,WI,2026-06-04,$189.99,4,standard
+50245,29,Stapler,Office,IL ,2026-04-29,$12.99,3,seasonal
+50246,24,Office Chair,Unknown,WI,2026-02-03,149.99,4,standard
+50210,30,Wall Clock,Home,MN,02/21/2026,18.75,2,clearance
+50201,38,Stapler,Office,MN,2026-04-26,,3,clearance
+50164,38,Backpack, Travel,IA,2026-02-24,39.99,2,standard
+50143,60,Pen Set,office,IL,2026-04-10,7.49,2,seasonal
+50118,55,Headphones,Electronics,MN,2026-02-26,$79.99,4,clearance
+50045,16,Throw Blanket,Home,WI,"Feb 7, 2026", 29.99 ,2,standard
+50024,23,Notebook,Office,MN,2026-01-16,4.99,1,seasonal
+50193,26,Pen Set,Office,N/A,2026-01-30,7.49,2,seasonal
+50117,34,Pen Set,OFFICE,WI,not recorded,7.49,1,backorder
+50031,55,Water Bottle,Travel,Illinois,2026-01-18,12.50,2,clearance
+50097,8,Notebook,office,IA,2026-02-21,4.99,1,backorder
+50258,22,Water Bottle,TRAVEL,IL,2026-04-12, 12.50 ,3,backorder
+50190,7,Luggage Tag,travel,WI,2026-04-14,6.25,2,standard
+50009,23,Water Bottle,Travel,Minnesota,2026-03-21,12.50,1,standard
+50255,47,Office Chair,Office,IL ,not recorded,$149.99,1,backorder
+50083,57,Headphones,Electronics,Wisconsin,"Jan 3, 2026",79.99,4,standard
+50063,13,Water Bottle,Travel,IL,2026-01-18,$12.50,3,backorder
+50247,53,Notebook,OFFICE,IL,2026-04-12,$4.99,1,standard
+50191,9,Pen Set,Office,IL,2026-05-31,7.49,2,backorder
+50148,48,Water Bottle,Travel,IL,"Mar 13, 2026",12.50,1,standard
+50004,50,Office Chair,Office,MN,2026-06-14,$149.99,2,standard
+50251,57,Desk Lamp,Home,IN,2026-04-17,24.99,1,backorder
+50225,34,Notebook,Office,MN ,2026-02-01,4.99,2,clearance
+50006,60,USB Hub,Electronics,IL,2026-04-15,21.50,2,clearance
+50236,20,USB Hub,Electronics,MN,2026-03-06,$21.50,1,seasonal
+50196,59,Headphones ,Electronics,mn,06/26/2026,$79.99,3,standard
+50123,16,Backpack,TRAVEL,IN,06/28/2026,$39.99,1,clearance
+50151,16,Pen Set,Office,IL,2026-06-26,$7.49,3,standard
+50230,29,Backpack,Travel,IL,2026-06-29,39.99,1,seasonal
+50177,36,USB Hub,Electronics,IL,2026-03-02,$21.50,5,backorder
+50237,49,Headphones,Electronics,Minnesota,2026-06-05,79.99,1,seasonal
+50243,58,USB Hub,Electronics,WI,"Apr 15, 2026",$21.50,1,standard
+50204,49,Backpack,TRAVEL,IL,03/12/2026,$39.99,5,standard
+50002,19,Stapler,office,IL,"May 26, 2026",12.99,1,backorder
+50100,38,Notebook,Office,Illinois,02/10/2026,4.99,3,standard
+50069,51,Notebook,Office,N/A,2026-06-14,$4.99,3,standard
+50022,24,Headphones,Electronics,WI,05/06/2026,79.99,4,seasonal
+50226,47,Desk Lamp,home,IL ,04/06/2026,$24.99,1,standard
+50222,10,Desk Lamp,Home,IL ,03/19/2026,24.99,3,standard
+50088,41,USB Hub,Electronics,IA,02/12/2026,21.50,3,standard
+50207,8,Headphones,Electronics,Illinois,2026-01-20,79.99,5,standard
+50070,1,Notebook, Office,MN ,2026-04-07,$4.99,1,backorder
+50176,16,USB Hub,unknown,WI,2026-05-08,$21.50,1,clearance
+50244,12,Stapler,Office,WI,2026-05-10,12.99,5,standard
+50068,43,Desk Lamp,Home,IA,2026-02-13, $24.99 ,2,backorder
+50039,25,Backpack,TRAVEL,il,01/20/2026,39.99,1,standard
+50142,8,Pen Set,Office,WI,"Jan 15, 2026",$7.49,3,standard
+50218,33,Stapler,OFFICE,il,2026-03-13,12.99,1,standard
+50199,20,Luggage Tag, Travel,MN,2026-02-01,$6.25,1,standard
+50115,10,USB Hub ,Electronics,IL,05/03/2026,21.50,1,standard
+50080,12,Notebook,Office,IL,2026-04-09,$4.99,5,standard
+50181,58,Water Bottle,TRAVEL,WI,05/26/2026, 12.50 ,1,standard
+50077,15,Water Bottle,travel,IL,"May 21, 2026",12.50,3,standard
+50250,33,Monitor,ELECTRONICS,IN ,2026-02-15,189.99,4,backorder
+50061,5,Monitor,Electronics,IN,05/25/2026, $189.99 ,1,clearance
+50121,60,Stapler,Office,WI,"Jan 25, 2026", 12.99 ,2,backorder
+50202,54,USB Hub,Electronics,mn,2026-05-31,21.50,2,standard
+50002,19,Stapler,office,IL,"May 26, 2026",12.99,1,backorder
+50052,14,Backpack, Travel,IL,2026-06-17,$39.99,5,standard
+50032,6,Notebook,Office,,2026-02-15,$4.99,3,standard
+50013,24,Notebook ,Office,IL ,2026-04-09,$4.99,1,standard
+50071,10,Throw Blanket,home,Minnesota,04/05/2026,$29.99,1,seasonal
+50101,5,Headphones ,electronics,IL,2026-06-28,79.99,3,standard
+50103,10,Water Bottle,Travel,MN,2026-05-02,$12.50,1,standard
+50089,58,Water Bottle,Travel,IL ,2026-05-06,$12.50,5,backorder
+50065,58,Backpack,Travel,IL,2026-05-03,$39.99,3,seasonal
+50078,10,Notebook,office,IL,"Jun 28, 2026",4.99,1,standard
+50171,41,Headphones,electronics,Iowa,2026-01-21,79.99,5,standard
+50257,22,Pen Set,Office,WI,2026-04-11,7.49,2,seasonal
+50084,6,Headphones,electronics,MN,2026-01-26,$79.99,2,standard
+50170,20,Notebook,Office,wi,2026-01-13,4.99,1,seasonal
+50058,31,Throw Blanket,Home,IN,2026-02-05,$29.99,3,standard
+50228,21,Stapler,Office,IL,2026-06-22,$12.99,1,standard
+50180,24,Pen Set,Office,MN ,2026-02-18,$7.49,4,standard
+50060,57,Headphones,Electronics,IL,2026-06-22,$79.99,2,standard
+50075,6,Headphones,Electronics,Illinois,"Jan 10, 2026",79.99,,clearance
+50028,27,Desk Lamp,Home,IA,05/13/2026, $24.99 ,1,backorder
+50104,34,Backpack,travel,Unknown,02/01/2026,$39.99,1,standard
+50079,28,Desk Lamp,Home,Illinois,2026-06-23,$24.99,2,clearance
+50197,5,Notebook,Office,IL,2026-02-28,$4.99,5,standard
+50023,29,Notebook,Office,IL,"Jan 6, 2026",$4.99,1,seasonal
+50033,39,Office Chair,Office,MN,2026-03-08,149.99,2,standard
+50159,7,Stapler,Office,IL,01/11/2026,12.99,2,standard
+50135,25,Backpack,travel,IL ,04/18/2026,$39.99,1,seasonal
+50124,41,Backpack,Travel,IL,2026-02-28,$39.99,1,seasonal
+50044,10,Headphones,Electronics,IL,02/16/2026,$79.99,1,clearance
+50072,26,Stapler, Office,MN,04/03/2026,12.99,1,standard
+50018,46,Notebook,Office,IL,2026-05-27,$4.99,3,clearance
+50051,57,Notebook,OFFICE,WI,2026-05-13,$4.99,4,standard
+50167,48,Notebook, Office,IL,"May 7, 2026",$4.99,4,standard
+50126,34,Wall Clock,Home,Wisconsin,06/08/2026,18.75,1,standard
+50034,45,Office Chair,office,MN,2026-03-25,$149.99,1,standard
+50220,4,Notebook,Office,IL,2026-04-30,4.99,1,seasonal
+50086,47,Backpack,Travel,IL,"May 24, 2026",$39.99,2,backorder
+50109,38,Throw Blanket,Home,IL,2026-02-25,$29.99,1,standard
+50168,39,USB Hub,Electronics,IA,2026-06-23,$21.50,2,standard
+50048,48,Wall Clock, Home,Illinois,2026-05-11,$18.75,2,standard
+50169,5,USB Hub,Electronics,wi,2026-03-27,21.50,2,standard
+50160,31,Desk Lamp,Home,MN ,2026-05-11,$24.99,1,backorder
+50178,30,Throw Blanket, Home,Iowa,2026-06-20,$29.99,2,clearance
+50206,51,Notebook,Office,Indiana,2026-05-02,N/A,3,backorder
+50153,49,Backpack,Travel,il,2026-02-07,39.99,4,clearance
+50112,22,Water Bottle,,WI,2026-03-11, $12.50 ,1,seasonal
+50179,45,Water Bottle,Travel,MN,01/20/2026,$12.50,1,standard
+50215,39,Stapler,Office,WI,"Jan 23, 2026",$12.99,2,standard
+50055,13,Notebook,Office,MN,03/01/2026,$4.99,2,standard
+50219,37,Backpack,Travel,IN,04/23/2026,39.99,3,clearance
+50096,19,Notebook,office,MN,"Jun 15, 2026",$4.99,5,clearance
+50113,46,Stapler,Office,IL,"Mar 6, 2026",12.99,-1,seasonal
+50054,14,Stapler,Office,MN,2026-06-24,12.99,3,seasonal
+50050,21,Notebook, Office,il,2026-02-14, $4.99 ,2,standard
+50011,51,Pen Set,Office,IA,2026-03-16,7.49,5,standard
+50194,47,Throw Blanket,Home,IL,not recorded,$29.99,3,clearance
+50223,7,Wall Clock ,Home,Illinois,03/25/2026,$18.75,4,backorder
+50240,2,Water Bottle , Travel,IL,"Jan 6, 2026",12.50,5,clearance
+50205,51,Headphones, Electronics,IA,2026-05-20,79.99,1,clearance
+50156,34,Desk Lamp,Unknown,IA,2026-06-26, $24.99 ,1,backorder
+50119,50,Notebook,Office,Iowa,2026-05-02,$4.99,1,standard
+50198,52,Pen Set,Office,IL,2026-01-16,$7.49,3,backorder
+50192,37,Notebook,Office,IN,2026-05-17,$4.99,2,clearance
+50076,50,Throw Blanket,Home,WI,2026-06-09,29.99,-1,standard
+50062,38,Headphones, Electronics,WI,2026-03-20,$79.99,3,seasonal
+50064,2,USB Hub,electronics,IA,"Feb 27, 2026",21.50,3,standard
+50165,50,Office Chair,office,IN ,"Feb 3, 2026",$149.99,4,backorder
+50241,27,Stapler, Office,wi,2026-05-25,12.99,1,standard
+50090,4,Notebook,OFFICE,IL,2026-05-21,N/A,3,clearance
+50141,16,USB Hub ,electronics,wi,"Jan 17, 2026",$21.50,3,standard
+50183,37,Backpack,Travel,Unknown,2026-04-04,39.99,2,seasonal
+50195,26,Luggage Tag,Travel,IN,2026-01-15, $6.25 ,5,standard
+50129,40,Water Bottle,travel,IA,2026-06-29, $12.50 ,4,clearance
+50213,58,Water Bottle,Travel,WI,not recorded,12.50,2,standard
+50234,16,Throw Blanket,Home,Illinois,2026-05-24,29.99,4,clearance
+50216,39,Wall Clock,Home,IL,2026-05-12,18.75,2,standard
+50164,38,Backpack, Travel,IA,2026-02-24,39.99,2,standard
+50098,31,Notebook,Office,MN,"Apr 24, 2026",$4.99,2,standard
+50145,27,Backpack,Travel,IA,2026-03-10,39.99,1,standard
+50067,38,Backpack, Travel,IN,2026-03-14,$39.99,two,standard
+50239,46,Backpack,travel,IL,2026-04-02,39.99,3,backorder
+50203,23,Notebook ,Office,il,05/27/2026,$4.99,2,backorder
+50242,34,Wall Clock,home,in,04/12/2026,18.75,1,standard
+50027,16,Desk Lamp,Home,IN,2026-02-03,24.99,5,seasonal
+50254,32,Luggage Tag,Travel,IL,2026-01-29,$6.25,1,standard
+50074,26,Throw Blanket,HOME,MN,02/14/2026,29.99,1,clearance
+50043,53,notebook,Travel,wi,05/13/2026, $12.50 ,1,backorder
+50161,36,Notebook,Office,IL,2026-03-29,4.99,1,standard
+50040,37,USB Hub,electronics,IL,2026-03-21,$21.50,5,standard
+50139,25,Notebook,OFFICE,in,2026-01-18,$4.99,1,standard
+50038,29,Luggage Tag,Travel,IA,2026-02-05,$6.25,1,clearance
+50191,9,Pen Set,Office,IL,2026-05-31,7.49,2,backorder
+50036,50,Backpack, Travel,IL,2026-05-15,$39.99,2,clearance
+50025,26,Water Bottle,Travel,IA,2026-03-13,12.50,2,standard
+50200,52,Backpack, Travel,IN,2026-01-12,$39.99,4,standard
+50114,3,Stapler ,Office,WI,2026-01-06,$12.99,2,clearance
+50238,42,Desk Lamp,Home,Indiana,"Jan 5, 2026",24.99,,standard
+50066,12,Office Chair,Office,Minnesota,04/15/2026,149.99,2,clearance
+50137,42,Notebook,Office,IN ,"Apr 24, 2026",4.99,4,clearance
+50057,49,Stapler,Office,IN,03/24/2026,$12.99,3,standard
+50116,11,Monitor,Electronics,IA,06/09/2026,N/A,4,standard
+50082,45,Notebook,Office,mn,2026-01-19,$4.99,3,seasonal
+50047,57,Backpack,Travel,WI,02/28/2026,39.99,2,seasonal
+50232,58,Notebook,Office,WI,2026-01-11,$4.99,1,seasonal
+50130,28,Desk Lamp ,Home,Iowa,"Apr 17, 2026",$24.99,1,clearance
+50087,47,Backpack,Travel,WI,04/24/2026, $39.99 ,5,backorder
+50105,32,Luggage Tag,Travel,wi,2026-04-03, $6.25 ,1,seasonal
+50175,10,Water Bottle,Travel,Minnesota,2026-04-04,$12.50,-1,standard
+50015,17,Headphones,Electronics,WI,2026-01-08,$79.99,4,standard
+50042,10,Water Bottle ,Travel,Illinois,2026-05-04,12.50,2,standard
+50231,60,Headphones,Electronics,IL,2026-02-20,79.99,2,backorder
+50212,13,Desk Lamp,Home,Iowa,2026-03-13,$24.99,2,standard
+50185,3,Luggage Tag, Travel,Illinois,02/15/2026,$6.25,1,standard
+50252,14,Backpack,Travel,MN,04/23/2026, 39.99 ,3,seasonal
+50217,17,Headphones,Electronics,IL ,2026-04-24,$79.99,4,seasonal
+50211,54,Backpack ,Travel,mn,2026-04-26,$39.99,3,clearance
+50138,47,Desk Lamp,Home,IN,2026-02-03,24.99,1,seasonal
+50005,31,Wall Clock,Home,WI,2026-01-28,18.75,2,standard
